@@ -1,0 +1,132 @@
+[
+  {
+    "id": "fish-orange",
+    "path": "animations/fish-orange-sheet.svg",
+    "frames": 4,
+    "frameWidth": 160,
+    "frameHeight": 96,
+    "fps": 7,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  },
+  {
+    "id": "fish-blue",
+    "path": "animations/fish-blue-sheet.svg",
+    "frames": 4,
+    "frameWidth": 160,
+    "frameHeight": 96,
+    "fps": 7,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  },
+  {
+    "id": "fish-yellow",
+    "path": "animations/fish-yellow-sheet.svg",
+    "frames": 4,
+    "frameWidth": 160,
+    "frameHeight": 96,
+    "fps": 7,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  },
+  {
+    "id": "shark",
+    "path": "animations/shark-sheet.svg",
+    "frames": 4,
+    "frameWidth": 240,
+    "frameHeight": 120,
+    "fps": 7,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  },
+  {
+    "id": "jellyfish",
+    "path": "animations/jellyfish-sheet.svg",
+    "frames": 4,
+    "frameWidth": 104,
+    "frameHeight": 156,
+    "fps": 5,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  },
+  {
+    "id": "crab",
+    "path": "animations/crab-sheet.svg",
+    "frames": 4,
+    "frameWidth": 168,
+    "frameHeight": 112,
+    "fps": 7,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  },
+  {
+    "id": "seaweed",
+    "path": "animations/seaweed-sheet.svg",
+    "frames": 4,
+    "frameWidth": 112,
+    "frameHeight": 204,
+    "fps": 7,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  },
+  {
+    "id": "clownfish",
+    "path": "animations/clownfish-sheet.svg",
+    "frames": 4,
+    "frameWidth": 192,
+    "frameHeight": 112,
+    "fps": 7,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  },
+  {
+    "id": "blue-tang",
+    "path": "animations/blue-tang-sheet.svg",
+    "frames": 4,
+    "frameWidth": 192,
+    "frameHeight": 112,
+    "fps": 7,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  },
+  {
+    "id": "lionfish",
+    "path": "animations/lionfish-sheet.svg",
+    "frames": 4,
+    "frameWidth": 224,
+    "frameHeight": 176,
+    "fps": 7,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  },
+  {
+    "id": "manta-ray",
+    "path": "animations/manta-ray-sheet.svg",
+    "frames": 4,
+    "frameWidth": 280,
+    "frameHeight": 176,
+    "fps": 7,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  },
+  {
+    "id": "anglerfish",
+    "path": "animations/anglerfish-sheet.svg",
+    "frames": 4,
+    "frameWidth": 224,
+    "frameHeight": 160,
+    "fps": 7,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  },
+  {
+    "id": "whale",
+    "path": "animations/whale-sheet.svg",
+    "frames": 4,
+    "frameWidth": 400,
+    "frameHeight": 208,
+    "fps": 7,
+    "loop": true,
+    "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+  }
+]

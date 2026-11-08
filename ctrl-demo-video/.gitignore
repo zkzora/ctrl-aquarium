@@ -1,0 +1,13 @@
+node_modules/
+out/*
+!out/voice-words.json
+!out/timeline.json
+!out/elevenlabs-generation.json
+!out/quality-check.json
+!out/CTRL-demo-final.mp4
+!out/CTRL-demo-en.srt
+!out/CTRL-thumbnail.png
+!out/POST_COPY.md
+.remotion/
+.env*
+!/.env.example

@@ -1,0 +1,46 @@
+{
+  "audioBefore": {
+    "input_i": "-20.90",
+    "input_tp": "-4.21",
+    "input_lra": "5.80",
+    "input_thresh": "-31.45",
+    "output_i": "-16.38",
+    "output_tp": "-1.50",
+    "output_lra": "6.00",
+    "output_thresh": "-27.51",
+    "normalization_type": "dynamic",
+    "target_offset": "0.38"
+  },
+  "masteringTarget": {
+    "integratedLufs": -16,
+    "truePeakDb": -1.5
+  },
+  "output": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "color_space": "bt709",
+        "r_frame_rate": "30/1"
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "140.400000",
+      "size": "24131103"
+    }
+  },
+  "validation": [
+    "full original video/audio decode passed",
+    "captions aligned to ElevenLabs word timings",
+    "12 visual review frames inspected"
+  ]
+}

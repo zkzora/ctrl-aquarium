@@ -1,0 +1,68 @@
+import {useEffect,useRef,useState} from 'react';
+import type {Address,Hex} from 'viem';
+import {initialRoom,type Kind} from '../lib/world';
+import type {Habitat} from '../lib/catalog';
+import {type PackReceipt,type GameAction} from '../lib/pack-game';
+import {type WorldEffect} from './reward-engine';
+import type {TestnetStatus} from '../lib/testnet-config';
+import {connectTestnetWallet,signTestnetLogin,deployAquarium,testnetTransaction,waitTestnet,describeWalletError} from '../lib/aquarium-wallet';
+import {refreshInterval} from '../lib/refresh-policy';
+import {KEYBOARD_RULES,keyboardArgs,type KeyboardQuote} from '../lib/keyboard-config';
+import type {KeyboardView} from '../lib/keyboard-game';
+type ViewData=KeyboardView&{testnet?:TestnetStatus;actionReceipt?:PackReceipt};
+type PendingTx={hash:Hex;type:'setup'|'sync';wallet:Address;habitat?:Habitat};
+function decode(raw:unknown):ViewData{if(!raw||typeof raw!=='object'||!('me'in raw)||!('room'in raw)||!('packs'in raw)||!('limits'in raw))throw new Error('Incomplete shared state. Reconnect to recover.');return raw as ViewData;}
+function errorMessage(raw:unknown){return raw&&typeof raw==='object'&&'error'in raw?String(raw.error):'The server could not complete this request.';}
+export function useGame(){
+ const [aquarium,setHabitat]=useState<Habitat>('public'),[isTestnet,setTestnet]=useState(true),[data,setData]=useState<ViewData|null>(null),[busy,setBusy]=useState(false),[loading,setLoading]=useState(true),[online,setOnline]=useState(false),[error,setError]=useState(''),[notice,setNotice]=useState(''),[tick,setTick]=useState(Date.now()),[txStatus,setTxStatus]=useState(''),[pendingTx,setPendingTx]=useState<PendingTx|null>(null);
+ const [composing,setComposing]=useState(false);
+ const [effect,setEffect]=useState<WorldEffect|null>(null),[rewardReveal,setRewardReveal]=useState<PackReceipt|null>(null),[blackHoleQuote,setBlackHoleQuote]=useState(false);
+ const current=useRef({aquarium,data,online}),network=useRef(true),mounted=useRef(true),pending=useRef(false),reading=useRef(false),generation=useRef(0),lastSeen=useRef(0),seen=useRef(new Set<string>()),pollAt=useRef(Date.now()),activity=useRef(Date.now());current.current={aquarium,data,online};
+ const announce=(s:string)=>setNotice(s);
+ function endpoint(h=current.current.aquarium){return `./api/${network.current?'keyboard':'demo'}?habitat=${h}`;}
+ function accept(next:ViewData,h:Habitat){if(!mounted.current||current.current.aquarium!==h)return;setData(next);setOnline(true);setLoading(false);setTick(Date.now());lastSeen.current=Date.now();const fx=next.lastEffect;if(fx&&!seen.current.has(fx.id)){seen.current.add(fx.id);if(next.serverTime-fx.startedAt<fx.duration)setEffect({...fx,startedAt:Date.now()-(next.serverTime-fx.startedAt)});}}
+ async function request(body:Record<string,unknown>,h=current.current.aquarium){
+  const r=await fetch(endpoint(h),{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({requestId:crypto.randomUUID(),...body}),signal:AbortSignal.timeout(55000)});const raw=await r.json();if(!r.ok)throw new Error(errorMessage(raw));return raw;
+ }
+ async function refresh(){if(reading.current||pending.current)return;reading.current=true;const h=current.current.aquarium,g=generation.current;try{const r=await fetch(endpoint(h),{cache:'no-store',credentials:'same-origin',signal:AbortSignal.timeout(55000)});const raw=await r.json();if(!r.ok)throw new Error(errorMessage(raw));if(g===generation.current)accept(decode(raw),h);}catch(e){if(g===generation.current){setOnline(false);setLoading(false);setError(e instanceof Error?e.message:'Could not reach the shared server.');}}finally{reading.current=false;}}
+ useEffect(()=>{
+  mounted.current=true;const params=new URLSearchParams(location.search),h=params.get('aquarium')==='whale'?'whale':'public';network.current=true;setTestnet(network.current);setHabitat(h);current.current={aquarium:h,data:null,online:false};
+  try{const saved=localStorage.getItem('ctrl-pending-keyboard');if(saved)setPendingTx(JSON.parse(saved));}catch{}
+  void refresh();const t=setInterval(()=>{const at=Date.now();setTick(at);const d=current.current.data,interval=refreshInterval({route:location.hash.slice(1).split('?')[0],hidden:document.hidden,online:current.current.online,authenticated:network.current?!!d?.testnet?.wallet:!!d,controller:!!d&&d.room.active?.session===d.me.id,idleFor:at-activity.current});if(interval!==null&&at-pollAt.current>=interval){pollAt.current=at;void refresh();}},1000);
+  const active=()=>{activity.current=Date.now();};document.addEventListener('pointerdown',active);document.addEventListener('keydown',active);
+  return()=>{mounted.current=false;clearInterval(t);document.removeEventListener('pointerdown',active);document.removeEventListener('keydown',active);};
+ },[]);
+ useEffect(()=>{void refresh()},[aquarium]);
+ useEffect(()=>{if(!notice)return;const t=setTimeout(()=>setNotice(''),6500);return()=>clearTimeout(t)},[notice]);
+ useEffect(()=>{if(!effect)return;const t=setTimeout(()=>setEffect(null),Math.max(50,effect.startedAt+effect.duration-Date.now()));return()=>clearTimeout(t)},[effect?.id]);
+ useEffect(()=>{
+  const provider=window.ethereum as (typeof window.ethereum&{on?:(event:string,fn:()=>void)=>void;removeListener?:(event:string,fn:()=>void)=>void});if(!provider?.on||!network.current)return;
+  const changed=()=>{generation.current++;setData(null);setError('Wallet account changed. Connect and sign in with the active account.');void request({type:'wallet-disconnect'}).then(()=>refresh()).catch(()=>{});};
+  provider.on('accountsChanged',changed);return()=>provider.removeListener?.('accountsChanged',changed);
+ },[]);
+ const now=tick+(data?data.serverTime-lastSeen.current:0),room=data?.room??initialRoom(aquarium,Date.now()),wallet=data?.testnet?.wallet;
+ const mode=data?.keyboard.pending?'controlling':'watching';
+ async function receive(raw:unknown,h:Habitat){const next=decode(raw);accept(next,h);if(next.actionReceipt){const fx=next.lastEffect;if(fx){const duration=matchMedia('(prefers-reduced-motion: reduce)').matches?250:fx.duration;setEffect({...fx,startedAt:Date.now(),duration});await new Promise(resolve=>setTimeout(resolve,duration));}if(mounted.current){setEffect(null);setRewardReveal(next.actionReceipt);}}}
+ async function work(fn:()=>Promise<void>){if(pending.current)return false;pending.current=true;generation.current++;setBusy(true);setError('');try{await fn();return true;}catch(e){setError(describeWalletError(e));setTxStatus('');return false;}finally{pending.current=false;if(mounted.current)setBusy(false);void refresh();}}
+ async function mutate(body:GameAction){if(!online){setError('Reconnect before changing the world.');return false;}const h=current.current.aquarium;return work(async()=>{await receive(await request(body,h),h);});}
+ function savePending(tx:PendingTx|null){setPendingTx(tx);try{if(tx)localStorage.setItem('ctrl-pending-keyboard',JSON.stringify(tx));else localStorage.removeItem('ctrl-pending-keyboard');}catch{}}
+ async function finishTransaction(tx:PendingTx,h:Habitat){h=tx.habitat??h;setTxStatus('Waiting for Base Sepolia confirmation…');try{await waitTestnet(tx.hash,tx.wallet);}catch(e){if(/Transaction reverted/i.test((e as Error).message))savePending(null);throw e;}setTxStatus('Confirmed. Synchronizing the shared aquarium…');let result=await request({type:tx.type,hash:tx.hash},h);for(let i=0;decode(result).testnet?.syncing&&i<8;i++)result=await request({type:'sync',hash:tx.hash},h);await receive(result,h);if(decode(result).testnet?.syncing)throw new Error('The chain index is still catching up. Use Recover transaction; no transaction needs to be resent.');savePending(null);setTxStatus('Confirmed on Base Sepolia.');}
+ async function send(method:'claimCredits'|'buyTurn'|'executeTurn'|'expireTurn'|'migrate',args:unknown[]=[]){const config=current.current.data?.testnet,h=current.current.aquarium;if(!config?.wallet||!config.contract)throw new Error('Connect your wallet and wait for the administrator to configure the testnet contract.');if(pendingTx)throw new Error('Recover the previous transaction before submitting another.');setTxStatus('Confirm the transaction in your wallet…');const hash=await testnetTransaction(config.contract,config.wallet,method,args),tx:PendingTx={hash,type:'sync',wallet:config.wallet,habitat:h};savePending(tx);await finishTransaction(tx,h);}
+ async function connect(){if(!isTestnet)return announce('Credit sandbox uses its own saved browser identity.');return work(async()=>{setTxStatus('Choose an account and switch to Base Sepolia…');const {address}=await connectTestnetWallet();const challenge=await request({type:'wallet-challenge',address}) as {message:string};setTxStatus('Sign in to CTRL. This message does not move funds.');const signature=await signTestnetLogin(challenge.message,address);let result=await request({type:'wallet-verify',signature});for(let i=0;decode(result).testnet?.syncing&&i<8;i++)result=await request({type:'sync'});await receive(result,current.current.aquarium);setTxStatus('Wallet signed in on Base Sepolia.');});}
+ async function deploy(){return work(async()=>{const config=current.current.data?.testnet;if(!config?.wallet||!config.oracle||!config.canDeploy)throw new Error('Only the configured administrator can deploy this testnet.');setTxStatus('Deploy the tested contract from your wallet…');const hash=await deployAquarium(config.oracle,config.wallet),tx:PendingTx={hash,type:'setup',wallet:config.wallet};savePending(tx);await finishTransaction(tx,current.current.aquarium);});}
+ async function recover(){return work(async()=>{if(!pendingTx)throw new Error('No locally saved transaction to recover.');await finishTransaction(pendingTx,current.current.aquarium);});}
+ async function synchronize(){return work(async()=>{let result=await request({type:'sync'});for(let i=0;decode(result).testnet?.syncing&&i<8;i++)result=await request({type:'sync'});await receive(result,current.current.aquarium);});}
+ async function disconnect(){return work(async()=>{await receive(await request({type:'wallet-disconnect'}),current.current.aquarium);setTxStatus('Wallet signed out. On-chain ownership stays with your address.');});}
+ async function executePaidTurn(id:Hex){const result=await request({type:'reveal',id}) as {proof:{id:Hex;payout:number;nonce:Hex}};setTxStatus('Turn paid. Confirm execution: no second credit charge.');await send('executeTurn',[result.proof.id,BigInt(result.proof.payout),result.proof.nonce]);setComposing(false);}
+ async function resumeTurn(){return work(async()=>{const ticket=current.current.data?.keyboard.pending;if(!ticket||!ticket.mine)throw new Error('No paid turn belongs to this wallet in this aquarium.');if(now>=ticket.expires){await send('expireTurn',[ticket.id]);announce('Expired turn released. Its paid fee funds the pool and developer.');}else await executePaidTurn(ticket.id);});}
+ async function refundStuck(){return work(async()=>{const ticket=current.current.data?.keyboard.pending;if(!ticket)throw new Error('No pending turn.');await send('expireTurn',[ticket.id]);});}
+ async function migrate(){return work(()=>send('migrate'));}
+ async function claim(){return isTestnet?work(()=>send('claimCredits')):mutate({type:'refill'});}
+ function setAquarium(h:Habitat){if(busy||pendingTx){announce('Finish your request and leave the building turn before switching.');return;}generation.current++;const url=new URL(location.href);url.searchParams.set('aquarium',h);window.history.replaceState(null,'',url);setData(null);setHabitat(h);current.current={aquarium:h,data:null,online:false};setLoading(true);setOnline(false);setError('');setBlackHoleQuote(false);setEffect(null);}
+ const readyPacks:never[]=[];
+ function requestBlackHole(){setBlackHoleQuote(true);}
+ async function confirmBlackHole(){setBlackHoleQuote(false);return command('Create a black hole',true);}
+ async function command(prompt:string,confirmedHole=false){if(/black\s*hole/i.test(prompt)&&!confirmedHole){requestBlackHole();return false;}if(!isTestnet){setError('The old sandbox is archived. Use the keyboard testnet.');return false;}return work(async()=>{const q=await request({type:'quote',prompt}) as {quote:KeyboardQuote;signature:Hex};await send('buyTurn',keyboardArgs(q.quote,q.signature));await executePaidTurn(q.quote.id);});}
+ const canPlay=online&&(!isTestnet||!!wallet&&!!data?.testnet?.configured&&!data.testnet.syncing),name=data?.me.name??'visitor';
+ return {isTestnet,testnet:data?.testnet,wallet,canPlay,txStatus,pendingTx,connect,disconnect,deploy,recover,synchronize,claim,refill:claim,room,data,online,loading,busy:busy||loading,error,notice,announce,aquarium,setAquarium,mode,seconds:Math.max(0,Math.ceil(((room.active?.endsAt??now)-now)/1000)),now,offset:data?data.serverTime-lastSeen.current:0,name,rename:(n:string)=>mutate({type:'rename',name:n}),balance:data?.me.balance??0,connected:isTestnet?!!wallet:!!data,round:{...data?.round,round:data?.round.round??1,remaining:data?.round.remaining??0,reserved:data?.round.reserved??0,total:data?.round.total??KEYBOARD_RULES[aquarium].seed},join:()=>setComposing(true),leave:()=>setComposing(false),command,migrate,resumeTurn,refundStuck,readyPacks,blackHoleQuote,requestBlackHole,confirmBlackHole,cancelBlackHole:()=>setBlackHoleQuote(false),effect,rewardReveal,rewardLog:data?.receipts??[],collection:data?.collection??{NVDA:0,AAPL:0,MSFT:0},clearReward:()=>setRewardReveal(null),showReceipt:(r:PackReceipt)=>setRewardReveal(r),refresh,reset:()=>{setEffect(null);setRewardReveal(null);setError('');void refresh();}};
+}

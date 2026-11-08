@@ -1,0 +1,11 @@
+{
+  "voiceReady": true,
+  "voiceName": "Ryan | Neutral Australian Calm Presenter",
+  "voiceId": "IkwJPJ8u0E0LT3Zg2pM6",
+  "model": "eleven_v4",
+  "flowId": "lWQrn6McTJHHdfLa8Xh8",
+  "generationId": "WYQBKjucAG1nh7aUvZQq",
+  "sourceTake": "take-1.mp3",
+  "alternateGenerationId": "8u9I0oQrUFET8X8JDoMK",
+  "note": "Narration generated through the user-authorized ElevenLabs MCP connection. Exact word timings from ElevenLabs Scribe."
+}

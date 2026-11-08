@@ -1,0 +1,17 @@
+{
+  "verifiedAt": "2026-11-07T06:14:45.390Z",
+  "origin": "https://ctrl-aquarium.vercel.app",
+  "chainId": 84532,
+  "contract": "0x06be0d3e30f135a3fd9a18a9e0476ed077fb5c15",
+  "qaWallet": "0x85AB6A9E8437Ff0d70444Ad4E78542EB6e857361",
+  "transactions": {
+    "funding": "0xb8bc886601e4bf15d130939a9cee21fc6c7c731766955884e4a91a68edc4e5fb",
+    "claim": "0x0b13761ee24ca4b8d96863ff7efe1a81bdae0f1aada3a9a54fb0c4feff5656ca",
+    "purchase": "0x262ca23e4f23053f5f86c24b85b0215bc38a361bbc72d65e38f5a2e8234a9eb9",
+    "open": "0x993a7ee20030d63640f4a2f5de0e2187352df2d76bc2d450c79103b2200bdbb9"
+  },
+  "payout": 40,
+  "balance": 1440,
+  "net": -60,
+  "passed": true
+}

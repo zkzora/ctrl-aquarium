@@ -1,0 +1,27 @@
+{
+  "name": "ctrl-demo-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts CTRL out/CTRL-demo-1080p.mp4 --codec h264 --crf 18 --color-space bt709 --concurrency 4",
+    "draft": "remotion render src/index.ts CTRL out/CTRL-demo-draft.mp4 --scale 0.6666667 --codec h264 --crf 24 --concurrency 4",
+    "frames": "node tools/render-review.mjs",
+    "master": "node tools/master-output.mjs"
+  },
+  "dependencies": {
+    "remotion": "4.0.541",
+    "@remotion/cli": "4.0.541",
+    "@remotion/renderer": "4.0.541",
+    "@remotion/bundler": "4.0.541",
+    "@remotion/player": "4.0.541",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "lucide-react": "^1.31.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.2.14",
+    "@types/node": "22.19.19"
+  }
+}

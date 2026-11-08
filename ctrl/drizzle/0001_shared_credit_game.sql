@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS ctrl_game_v3 (
+ id TEXT PRIMARY KEY,
+ document TEXT NOT NULL,
+ revision INTEGER NOT NULL DEFAULT 0
+);

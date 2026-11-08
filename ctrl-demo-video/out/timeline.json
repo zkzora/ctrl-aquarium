@@ -1,0 +1,72 @@
+[
+  {
+    "id": "hook",
+    "from": 0,
+    "frames": 360,
+    "seconds": 12,
+    "voiceSeconds": 9.92
+  },
+  {
+    "id": "world",
+    "from": 360,
+    "frames": 390,
+    "seconds": 13,
+    "voiceSeconds": 10
+  },
+  {
+    "id": "wallet",
+    "from": 750,
+    "frames": 390,
+    "seconds": 13,
+    "voiceSeconds": 9.060000000000002
+  },
+  {
+    "id": "pack",
+    "from": 1140,
+    "frames": 480,
+    "seconds": 16,
+    "voiceSeconds": 11.899999999999999
+  },
+  {
+    "id": "proof",
+    "from": 1620,
+    "frames": 510,
+    "seconds": 17,
+    "voiceSeconds": 14.079999999999998
+  },
+  {
+    "id": "whale",
+    "from": 2130,
+    "frames": 390,
+    "seconds": 13,
+    "voiceSeconds": 9.56000000000001
+  },
+  {
+    "id": "hole",
+    "from": 2520,
+    "frames": 570,
+    "seconds": 19,
+    "voiceSeconds": 14.519999999999982
+  },
+  {
+    "id": "limits",
+    "from": 3090,
+    "frames": 420,
+    "seconds": 14,
+    "voiceSeconds": 11.5
+  },
+  {
+    "id": "trust",
+    "from": 3510,
+    "frames": 420,
+    "seconds": 14,
+    "voiceSeconds": 12.920000000000016
+  },
+  {
+    "id": "end",
+    "from": 3930,
+    "frames": 280,
+    "seconds": 9.333333333333334,
+    "voiceSeconds": 8.319999999999993
+  }
+]

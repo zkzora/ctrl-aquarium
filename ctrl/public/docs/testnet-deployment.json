@@ -1,0 +1,9 @@
+{
+  "contract": "0x06be0d3e30f135a3fd9a18a9e0476ed077fb5c15",
+  "hash": "0x92af089a719aef0bb03beac17afe21d240701ffee2de8ce291204757d3d4d085",
+  "block": "55546714",
+  "oracle": "0xCCc109e39ADf2A6F8B12411F214c63Dea0CF3b5F",
+  "admin": "0xd41C88eE843dcCBe6E8AD3D62e4c33Ccb6C9787b",
+  "chainId": 84532,
+  "runtimeHash": "0xac3396ff91579fc8449fc10a6983d890be7986b1af261e44b7b1bfc6f61f1913"
+}

@@ -1,0 +1,18 @@
+{
+  "auditedAt": "2026-11-07T12:28:48.554863+07:00",
+  "files": 106,
+  "svg": 58,
+  "png": 37,
+  "wav": 11,
+  "totalBytes": 10664630,
+  "errors": [],
+  "passed": true,
+  "checks": [
+    "required files",
+    "SVG parsing / duplicate IDs / external dependencies",
+    "PNG headers and dimensions",
+    "WAV PCM metadata and peak",
+    "motion sheet bounds",
+    "SHA-256 for each asset"
+  ]
+}

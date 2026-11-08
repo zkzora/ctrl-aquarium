@@ -1,0 +1,70 @@
+{
+  "voiceReady": true,
+  "voiceName": "Ryan | Neutral Australian Calm Presenter",
+  "voiceId": "IkwJPJ8u0E0LT3Zg2pM6",
+  "model": "eleven_v4",
+  "flowId": "lWQrn6McTJHHdfLa8Xh8",
+  "generationId": "WYQBKjucAG1nh7aUvZQq",
+  "segments": {
+    "hook": {
+      "file": "voice/hook.wav",
+      "seconds": 9.92,
+      "sourceStart": 0.22,
+      "sourceEnd": 10.14
+    },
+    "world": {
+      "file": "voice/world.wav",
+      "seconds": 10,
+      "sourceStart": 10.14,
+      "sourceEnd": 20.14
+    },
+    "wallet": {
+      "file": "voice/wallet.wav",
+      "seconds": 9.060000000000002,
+      "sourceStart": 20.14,
+      "sourceEnd": 29.200000000000003
+    },
+    "pack": {
+      "file": "voice/pack.wav",
+      "seconds": 11.899999999999999,
+      "sourceStart": 29.200000000000003,
+      "sourceEnd": 41.1
+    },
+    "proof": {
+      "file": "voice/proof.wav",
+      "seconds": 14.079999999999998,
+      "sourceStart": 41.1,
+      "sourceEnd": 55.18
+    },
+    "whale": {
+      "file": "voice/whale.wav",
+      "seconds": 9.56000000000001,
+      "sourceStart": 55.18,
+      "sourceEnd": 64.74000000000001
+    },
+    "hole": {
+      "file": "voice/hole.wav",
+      "seconds": 14.519999999999982,
+      "sourceStart": 64.74000000000001,
+      "sourceEnd": 79.25999999999999
+    },
+    "limits": {
+      "file": "voice/limits.wav",
+      "seconds": 11.5,
+      "sourceStart": 79.25999999999999,
+      "sourceEnd": 90.75999999999999
+    },
+    "trust": {
+      "file": "voice/trust.wav",
+      "seconds": 12.920000000000016,
+      "sourceStart": 90.75999999999999,
+      "sourceEnd": 103.68
+    },
+    "end": {
+      "file": "voice/end.wav",
+      "seconds": 8.319999999999993,
+      "sourceStart": 103.68,
+      "sourceEnd": 112
+    }
+  }
+}

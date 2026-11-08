@@ -1,0 +1,309 @@
+{
+  "hook": [
+    {
+      "text": "One world. Everyone wants the keyboard. This is",
+      "startMs": 420,
+      "endMs": 4340,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Control: a shared aquarium where each person's strange",
+      "startMs": 4420,
+      "endMs": 7620,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "idea becomes the next player's starting point.",
+      "startMs": 7700,
+      "endMs": 10220,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "world": [
+    {
+      "text": "Add a shark. Build a shelter. Reverse gravity.",
+      "startMs": 500,
+      "endMs": 3700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Control is the product: buy a keyboard turn,",
+      "startMs": 4100,
+      "endMs": 6820,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "run one command, and pass the changed world",
+      "startMs": 6940,
+      "endMs": 9220,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "to the next player.",
+      "startMs": 9260,
+      "endMs": 10300,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "wallet": [
+    {
+      "text": "Connect your wallet on Base Sepolia and sign",
+      "startMs": 500,
+      "endMs": 2740,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "in. Claim 1,500 free test credits. Your balance",
+      "startMs": 2820,
+      "endMs": 6740,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "and daily limits follow your wallet when you",
+      "startMs": 6780,
+      "endMs": 8620,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "reconnect.",
+      "startMs": 8660,
+      "endMs": 9380,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "pack": [
+    {
+      "text": "Public turns cost 10 credits. Whale turns cost",
+      "startMs": 480,
+      "endMs": 3360,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "fifty. 80% funds the shared reward pool; 20%",
+      "startMs": 3520,
+      "endMs": 6640,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "goes to the developer. Confirm payment, then execution,",
+      "startMs": 6720,
+      "endMs": 10400,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "with no second credit charge.",
+      "startMs": 10480,
+      "endMs": 12200,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "proof": [
+    {
+      "text": "Our completed testnet run started with 1,440 credits.",
+      "startMs": 500,
+      "endMs": 4900,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Adding a fish and exploding one cost 20.",
+      "startMs": 5020,
+      "endMs": 7460,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The random reward was 30, leaving 1,450. 16",
+      "startMs": 7540,
+      "endMs": 11700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "credits went to the pool; 4 to the",
+      "startMs": 11860,
+      "endMs": 13700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "developer.",
+      "startMs": 13940,
+      "endMs": 14380,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "whale": [
+    {
+      "text": "Add a fish or treasure to unlock a",
+      "startMs": 500,
+      "endMs": 2260,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "reward command. Explode a shared fish or open",
+      "startMs": 2460,
+      "endMs": 5060,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "a chest. 60% of base rolls are empty;",
+      "startMs": 5140,
+      "endMs": 8020,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "rewards are capped by the pool.",
+      "startMs": 8100,
+      "endMs": 9940,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "hole": [
+    {
+      "text": "A black hole uses one paid turn. It",
+      "startMs": 420,
+      "endMs": 2940,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "rolls for the quoted fish and treasure, swallows",
+      "startMs": 3020,
+      "endMs": 5340,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "the entire world, and starts a new round.",
+      "startMs": 5380,
+      "endMs": 7820,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Inhabitants return gradually. Both aquariums receive up to",
+      "startMs": 7900,
+      "endMs": 11260,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "300 fresh pool credits from finite treasury reserves.",
+      "startMs": 11340,
+      "endMs": 14860,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "limits": [
+    {
+      "text": "Each wallet can buy 20 turns, 5 reward",
+      "startMs": 460,
+      "endMs": 2900,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "commands, and one black hole per rolling day.",
+      "startMs": 3140,
+      "endMs": 5700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Each discovery consumes a contribution. Wallet limits alone",
+      "startMs": 5780,
+      "endMs": 9140,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "do not stop someone using multiple wallets.",
+      "startMs": 9220,
+      "endMs": 11780,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "trust": [
+    {
+      "text": "Payments, fee splitting and payouts settle on Base",
+      "startMs": 520,
+      "endMs": 3240,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Sepolia. The server chooses random results. Commitments show",
+      "startMs": 3360,
+      "endMs": 6840,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "that paid outcomes were not changed; they do",
+      "startMs": 6920,
+      "endMs": 9080,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "not prove independently fair randomness. The rules are",
+      "startMs": 9160,
+      "endMs": 12360,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "published.",
+      "startMs": 12440,
+      "endMs": 13240,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "end": [
+    {
+      "text": "Try Control. Inherit the world. Leave it a",
+      "startMs": 480,
+      "endMs": 3760,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "little stranger. Test credits and stock-inspired souvenirs have",
+      "startMs": 3840,
+      "endMs": 7440,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "no cash value.",
+      "startMs": 7600,
+      "endMs": 8720,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ]
+}

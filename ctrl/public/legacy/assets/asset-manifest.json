@@ -1,0 +1,2331 @@
+{
+  "version": 2,
+  "project": "CTRL \u2014 Public and Whale Aquariums",
+  "baseUrl": "/assets/",
+  "normalizedAnchors": true,
+  "notes": [
+    "Static SVG sources are authoritative; PNGs are deterministic exports.",
+    "Animation sheets are procedural squash/stretch frames, not skeletal rigs.",
+    "No audio autoplays. Test token illustration is not a launched token.",
+    "NVDA/AAPL/MSFT graphics are fictional demo souvenirs, not stocks, securities, or redeemable assets."
+  ],
+  "assets": [
+    {
+      "id": "anglerfish",
+      "path": "anglerfish.svg",
+      "url": "/assets/anglerfish.svg",
+      "format": "svg",
+      "bytes": 3064,
+      "sha256": "336f3e6030346d866e81ce0b5944675365fe22894522cb4ebe0b3992d0d97a1a",
+      "width": 224,
+      "height": 160,
+      "viewBox": [
+        0.0,
+        0.0,
+        224.0,
+        160.0
+      ],
+      "category": "creatures",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "facing": "right"
+    },
+    {
+      "id": "animations__anglerfish-sheet",
+      "path": "animations/anglerfish-sheet.png",
+      "url": "/assets/animations/anglerfish-sheet.png",
+      "format": "png",
+      "bytes": 52248,
+      "sha256": "ef81f1cb73d1f26bce60e9ed52467cb68892e3fd0dfcf260921a6a3edd42d687",
+      "width": 896,
+      "height": 160,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 224,
+        "frameHeight": 160,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__anglerfish-sheet",
+      "path": "animations/anglerfish-sheet.svg",
+      "url": "/assets/animations/anglerfish-sheet.svg",
+      "format": "svg",
+      "bytes": 12701,
+      "sha256": "76f53dd1cdc8a4c119389fef3ce894a79363f538de8eed6eeabd72b4e955bbb5",
+      "width": 896,
+      "height": 160,
+      "viewBox": [
+        0.0,
+        0.0,
+        896.0,
+        160.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 224,
+        "frameHeight": 160,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__blue-tang-sheet",
+      "path": "animations/blue-tang-sheet.png",
+      "url": "/assets/animations/blue-tang-sheet.png",
+      "format": "png",
+      "bytes": 31470,
+      "sha256": "b0ef3a1a9a5749cde07cc0a9a4d1b4181cad22c85626283d6f3e7eda58c3ff68",
+      "width": 768,
+      "height": 112,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 192,
+        "frameHeight": 112,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__blue-tang-sheet",
+      "path": "animations/blue-tang-sheet.svg",
+      "url": "/assets/animations/blue-tang-sheet.svg",
+      "format": "svg",
+      "bytes": 9148,
+      "sha256": "e9f3d21669cf392ac5c273fd3e2c1b337c2810ab7cb27bfedfd39988eecaef5d",
+      "width": 768,
+      "height": 112,
+      "viewBox": [
+        0.0,
+        0.0,
+        768.0,
+        112.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 192,
+        "frameHeight": 112,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__clownfish-sheet",
+      "path": "animations/clownfish-sheet.png",
+      "url": "/assets/animations/clownfish-sheet.png",
+      "format": "png",
+      "bytes": 35584,
+      "sha256": "1c255224afed62491d1d5d898ea56a74bdcbb846db2db7da4d4af75bf0c551eb",
+      "width": 768,
+      "height": 112,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 192,
+        "frameHeight": 112,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__clownfish-sheet",
+      "path": "animations/clownfish-sheet.svg",
+      "url": "/assets/animations/clownfish-sheet.svg",
+      "format": "svg",
+      "bytes": 9444,
+      "sha256": "47ea0549006b19959758626c8e78b36c960de5b280b457ebb99853526aea72ca",
+      "width": 768,
+      "height": 112,
+      "viewBox": [
+        0.0,
+        0.0,
+        768.0,
+        112.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 192,
+        "frameHeight": 112,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__crab-sheet",
+      "path": "animations/crab-sheet.png",
+      "url": "/assets/animations/crab-sheet.png",
+      "format": "png",
+      "bytes": 24974,
+      "sha256": "6d3e125fe8bcd58dd7120563a4c78356f86c12294b4fd4bec788e59bce2eeffa",
+      "width": 672,
+      "height": 112,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 168,
+        "frameHeight": 112,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "front"
+    },
+    {
+      "id": "animations__crab-sheet",
+      "path": "animations/crab-sheet.svg",
+      "url": "/assets/animations/crab-sheet.svg",
+      "format": "svg",
+      "bytes": 5664,
+      "sha256": "51e21ccc82ef5b787ab08e34ddc448a9bf528c7307a749352c59361791f7e39f",
+      "width": 672,
+      "height": 112,
+      "viewBox": [
+        0.0,
+        0.0,
+        672.0,
+        112.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 168,
+        "frameHeight": 112,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "front"
+    },
+    {
+      "id": "animations__fish-blue-sheet",
+      "path": "animations/fish-blue-sheet.png",
+      "url": "/assets/animations/fish-blue-sheet.png",
+      "format": "png",
+      "bytes": 26062,
+      "sha256": "1d3870152462647382225c0f87f32875ea2b99bdfe4bb237a0d38489c142e795",
+      "width": 640,
+      "height": 96,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 160,
+        "frameHeight": 96,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__fish-blue-sheet",
+      "path": "animations/fish-blue-sheet.svg",
+      "url": "/assets/animations/fish-blue-sheet.svg",
+      "format": "svg",
+      "bytes": 6034,
+      "sha256": "5cb889895478f24b31aa88dc1fbcc701c0ca57a69a48064afe0a970077d34b3c",
+      "width": 640,
+      "height": 96,
+      "viewBox": [
+        0.0,
+        0.0,
+        640.0,
+        96.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 160,
+        "frameHeight": 96,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__fish-orange-sheet",
+      "path": "animations/fish-orange-sheet.png",
+      "url": "/assets/animations/fish-orange-sheet.png",
+      "format": "png",
+      "bytes": 25934,
+      "sha256": "925e6e346a0dfd2b27b6e9eefcfe9549ea99ab3de2d3e735d7beb18424e7df38",
+      "width": 640,
+      "height": 96,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 160,
+        "frameHeight": 96,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__fish-orange-sheet",
+      "path": "animations/fish-orange-sheet.svg",
+      "url": "/assets/animations/fish-orange-sheet.svg",
+      "format": "svg",
+      "bytes": 6088,
+      "sha256": "4946623b7938a6a298e04f255610a3e9bb4c5ad34b1f57b4405604e7355a1f80",
+      "width": 640,
+      "height": 96,
+      "viewBox": [
+        0.0,
+        0.0,
+        640.0,
+        96.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 160,
+        "frameHeight": 96,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__fish-yellow-sheet",
+      "path": "animations/fish-yellow-sheet.png",
+      "url": "/assets/animations/fish-yellow-sheet.png",
+      "format": "png",
+      "bytes": 22890,
+      "sha256": "d24a80e7ec79d0fcf551e9d3ca16e1575e65f7bdb9b3ad0790a48f0b270fdfb8",
+      "width": 640,
+      "height": 96,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 160,
+        "frameHeight": 96,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__fish-yellow-sheet",
+      "path": "animations/fish-yellow-sheet.svg",
+      "url": "/assets/animations/fish-yellow-sheet.svg",
+      "format": "svg",
+      "bytes": 5464,
+      "sha256": "322bce5b7518637a84a4a41401b49100c2791e1be1bf4814adc4ecae82997f8b",
+      "width": 640,
+      "height": 96,
+      "viewBox": [
+        0.0,
+        0.0,
+        640.0,
+        96.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 160,
+        "frameHeight": 96,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__jellyfish-sheet",
+      "path": "animations/jellyfish-sheet.png",
+      "url": "/assets/animations/jellyfish-sheet.png",
+      "format": "png",
+      "bytes": 29460,
+      "sha256": "050621cec02201cf4d6e6c21a60204008f5fa9c197f7cd9f267db2074655e2e5",
+      "width": 416,
+      "height": 156,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 104,
+        "frameHeight": 156,
+        "fps": 5,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "front"
+    },
+    {
+      "id": "animations__jellyfish-sheet",
+      "path": "animations/jellyfish-sheet.svg",
+      "url": "/assets/animations/jellyfish-sheet.svg",
+      "format": "svg",
+      "bytes": 6210,
+      "sha256": "5a019393781c020e9a72972bc7403e17a12ba2c4d91582b9c06193d9b08abadd",
+      "width": 416,
+      "height": 156,
+      "viewBox": [
+        0.0,
+        0.0,
+        416.0,
+        156.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 104,
+        "frameHeight": 156,
+        "fps": 5,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "front"
+    },
+    {
+      "id": "animations__lionfish-sheet",
+      "path": "animations/lionfish-sheet.png",
+      "url": "/assets/animations/lionfish-sheet.png",
+      "format": "png",
+      "bytes": 87444,
+      "sha256": "018fe5e586e3166a1831f8dea83c2b9a4ca9f32c3287ea29d93c30320131bdc8",
+      "width": 896,
+      "height": 176,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 224,
+        "frameHeight": 176,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__lionfish-sheet",
+      "path": "animations/lionfish-sheet.svg",
+      "url": "/assets/animations/lionfish-sheet.svg",
+      "format": "svg",
+      "bytes": 11171,
+      "sha256": "f43fb597071b6c34b8ca428577d36de901eb0b121a3b11abe41efb9f21efb69d",
+      "width": 896,
+      "height": 176,
+      "viewBox": [
+        0.0,
+        0.0,
+        896.0,
+        176.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 224,
+        "frameHeight": 176,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__manta-ray-sheet",
+      "path": "animations/manta-ray-sheet.png",
+      "url": "/assets/animations/manta-ray-sheet.png",
+      "format": "png",
+      "bytes": 36084,
+      "sha256": "ae15e0e06b9e3b35155df3e905f71fa8319e583e61d6c5b985870b8b9de62664",
+      "width": 1120,
+      "height": 176,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 280,
+        "frameHeight": 176,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__manta-ray-sheet",
+      "path": "animations/manta-ray-sheet.svg",
+      "url": "/assets/animations/manta-ray-sheet.svg",
+      "format": "svg",
+      "bytes": 8658,
+      "sha256": "b593a7811406797cc8aa5f418531c0d4529c34784ad90a1747d2003410ffa7e7",
+      "width": 1120,
+      "height": 176,
+      "viewBox": [
+        0.0,
+        0.0,
+        1120.0,
+        176.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 280,
+        "frameHeight": 176,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__seaweed-sheet",
+      "path": "animations/seaweed-sheet.png",
+      "url": "/assets/animations/seaweed-sheet.png",
+      "format": "png",
+      "bytes": 39306,
+      "sha256": "80ccbd4acb2ce495402de63ab8240821ef5f14637dbddd13baa6bafbe7d6f0c2",
+      "width": 448,
+      "height": 204,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 112,
+        "frameHeight": 204,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      }
+    },
+    {
+      "id": "animations__seaweed-sheet",
+      "path": "animations/seaweed-sheet.svg",
+      "url": "/assets/animations/seaweed-sheet.svg",
+      "format": "svg",
+      "bytes": 4167,
+      "sha256": "ebed86bbf0a5b6cb432d9b3728abbe80faa778a25840f9aab79c4c433b199574",
+      "width": 448,
+      "height": 204,
+      "viewBox": [
+        0.0,
+        0.0,
+        448.0,
+        204.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 112,
+        "frameHeight": 204,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      }
+    },
+    {
+      "id": "animations__shark-sheet",
+      "path": "animations/shark-sheet.png",
+      "url": "/assets/animations/shark-sheet.png",
+      "format": "png",
+      "bytes": 34626,
+      "sha256": "3ca1ca76239749666a9bc6f2671b1c1b96f619a12b00c39d32147b1570001c4c",
+      "width": 960,
+      "height": 120,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 240,
+        "frameHeight": 120,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__shark-sheet",
+      "path": "animations/shark-sheet.svg",
+      "url": "/assets/animations/shark-sheet.svg",
+      "format": "svg",
+      "bytes": 8432,
+      "sha256": "f150d2529bda0396c46781b24d4cdca55b548b177fc8e19dc2f6a1342d4aab4f",
+      "width": 960,
+      "height": 120,
+      "viewBox": [
+        0.0,
+        0.0,
+        960.0,
+        120.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 240,
+        "frameHeight": 120,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__whale-sheet",
+      "path": "animations/whale-sheet.png",
+      "url": "/assets/animations/whale-sheet.png",
+      "format": "png",
+      "bytes": 64051,
+      "sha256": "b58b3a9ce30fc853f2465247391ff476c4b60cef728f3711fe4de64251001991",
+      "width": 1600,
+      "height": 208,
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 400,
+        "frameHeight": 208,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "animations__whale-sheet",
+      "path": "animations/whale-sheet.svg",
+      "url": "/assets/animations/whale-sheet.svg",
+      "format": "svg",
+      "bytes": 12779,
+      "sha256": "5f0cf2b834b568d9d3ca50ca7c592bd21938fc18b2b064a7f1cfbacfd6526806",
+      "width": 1600,
+      "height": 208,
+      "viewBox": [
+        0.0,
+        0.0,
+        1600.0,
+        208.0
+      ],
+      "category": "animations",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "animation": {
+        "frames": 4,
+        "frameWidth": 400,
+        "frameHeight": 208,
+        "fps": 7,
+        "loop": true,
+        "method": "procedural squash/stretch of original SVG; not articulated skeletal animation"
+      },
+      "facing": "right"
+    },
+    {
+      "id": "aquarium-backdrop",
+      "path": "aquarium-backdrop.png",
+      "url": "/assets/aquarium-backdrop.png",
+      "format": "png",
+      "bytes": 2247094,
+      "sha256": "23d0b246c52878f065e232dcf0d32e308a1ae0eec69faed3257c9d2db87cd8ad",
+      "width": 1586,
+      "height": 992,
+      "category": "environment",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "background"
+    },
+    {
+      "id": "audio__black-hole",
+      "path": "audio/black-hole.wav",
+      "url": "/assets/audio/black-hole.wav",
+      "format": "wav",
+      "bytes": 185264,
+      "sha256": "d753d125c039bcadd8f45b8e556cef542436261c7130ff87722da406154b8c68",
+      "durationSeconds": 4.2,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bits": 16,
+      "peakLinear": 0.22,
+      "loop": false,
+      "suggestedGain": 0.5,
+      "category": "audio"
+    },
+    {
+      "id": "audio__bubble",
+      "path": "audio/bubble.wav",
+      "url": "/assets/audio/bubble.wav",
+      "format": "wav",
+      "bytes": 11068,
+      "sha256": "36b95abf15676b55a51fceed30243f28b4b09ff9d627f4a5b058b3ecfacd0bee",
+      "durationSeconds": 0.25,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bits": 16,
+      "peakLinear": 0.23,
+      "loop": false,
+      "suggestedGain": 0.5,
+      "category": "audio"
+    },
+    {
+      "id": "audio__change-accepted",
+      "path": "audio/change-accepted.wav",
+      "url": "/assets/audio/change-accepted.wav",
+      "format": "wav",
+      "bytes": 21212,
+      "sha256": "f39d5ce1d38d64848d707c6a7df3939b3265cebc30f4bf9c4a9cbc80edca9c77",
+      "durationSeconds": 0.48,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bits": 16,
+      "peakLinear": 0.25,
+      "loop": false,
+      "suggestedGain": 0.5,
+      "category": "audio"
+    },
+    {
+      "id": "audio__countdown",
+      "path": "audio/countdown.wav",
+      "url": "/assets/audio/countdown.wav",
+      "format": "wav",
+      "bytes": 5336,
+      "sha256": "f28211bdec810d4e073c5bd78dec5fbbe8ee0dbdf765a12a3304a94e6385203f",
+      "durationSeconds": 0.12,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bits": 16,
+      "peakLinear": 0.17,
+      "loop": false,
+      "suggestedGain": 0.5,
+      "category": "audio"
+    },
+    {
+      "id": "audio__creature-pop",
+      "path": "audio/creature-pop.wav",
+      "url": "/assets/audio/creature-pop.wav",
+      "format": "wav",
+      "bytes": 22976,
+      "sha256": "bddf16378b4d727d0ffab5ffec40d98cb528bd1ec995094a8f303e26be343ca3",
+      "durationSeconds": 0.52,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bits": 16,
+      "peakLinear": 0.28,
+      "loop": false,
+      "suggestedGain": 0.5,
+      "category": "audio"
+    },
+    {
+      "id": "audio__feed",
+      "path": "audio/feed.wav",
+      "url": "/assets/audio/feed.wav",
+      "format": "wav",
+      "bytes": 15920,
+      "sha256": "28d8a1ade6087b6a9e2c2ef5790785010edf627290f7f3e8ef2b10d1d636cd77",
+      "durationSeconds": 0.36,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bits": 16,
+      "peakLinear": 0.2,
+      "loop": false,
+      "suggestedGain": 0.5,
+      "category": "audio"
+    },
+    {
+      "id": "audio__pass-keyboard",
+      "path": "audio/pass-keyboard.wav",
+      "url": "/assets/audio/pass-keyboard.wav",
+      "format": "wav",
+      "bytes": 21212,
+      "sha256": "1fb1772eccf57fc1ed1d523ba53e888346d81c993df98d68d6b05597c6cb0483",
+      "durationSeconds": 0.48,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bits": 16,
+      "peakLinear": 0.2,
+      "loop": false,
+      "suggestedGain": 0.5,
+      "category": "audio"
+    },
+    {
+      "id": "audio__treasure-open",
+      "path": "audio/treasure-open.wav",
+      "url": "/assets/audio/treasure-open.wav",
+      "format": "wav",
+      "bytes": 55168,
+      "sha256": "9bc1abc4ecf0c2dc48cf3b5f34b4ce487a1e113cc077115d72eb011d64fe128d",
+      "durationSeconds": 1.25,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bits": 16,
+      "peakLinear": 0.28,
+      "loop": false,
+      "suggestedGain": 0.5,
+      "category": "audio"
+    },
+    {
+      "id": "audio__underwater-ambience",
+      "path": "audio/underwater-ambience.wav",
+      "url": "/assets/audio/underwater-ambience.wav",
+      "format": "wav",
+      "bytes": 529244,
+      "sha256": "97d6562ec673ca02b6ea078a9f5cc8d765cd6a8a84bb813f0da50623fbddac9b",
+      "durationSeconds": 12.0,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bits": 16,
+      "peakLinear": 0.055,
+      "loop": true,
+      "suggestedGain": 0.35,
+      "category": "audio"
+    },
+    {
+      "id": "audio__unsupported",
+      "path": "audio/unsupported.wav",
+      "url": "/assets/audio/unsupported.wav",
+      "format": "wav",
+      "bytes": 11068,
+      "sha256": "4bbae6a71bb39906558dfa2b35e427258ca0aa7935bd9bda1ccb011df625f664",
+      "durationSeconds": 0.25,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bits": 16,
+      "peakLinear": 0.16,
+      "loop": false,
+      "suggestedGain": 0.5,
+      "category": "audio"
+    },
+    {
+      "id": "audio__your-turn",
+      "path": "audio/your-turn.wav",
+      "url": "/assets/audio/your-turn.wav",
+      "format": "wav",
+      "bytes": 31796,
+      "sha256": "d6d1cad7c4ed12c2d0717576e3b006ce3e33590c3f6fe3acc3263888840be6cd",
+      "durationSeconds": 0.72,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bits": 16,
+      "peakLinear": 0.27,
+      "loop": false,
+      "suggestedGain": 0.5,
+      "category": "audio"
+    },
+    {
+      "id": "blue-tang",
+      "path": "blue-tang.svg",
+      "url": "/assets/blue-tang.svg",
+      "format": "svg",
+      "bytes": 2193,
+      "sha256": "1033d7cb8d06f65a5a3115623e4682f2fd5cea610f327f8f5503003862ed3223",
+      "width": 192,
+      "height": 112,
+      "viewBox": [
+        0.0,
+        0.0,
+        192.0,
+        112.0
+      ],
+      "category": "creatures",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "facing": "right"
+    },
+    {
+      "id": "brand__ctrl-favicon",
+      "path": "brand/ctrl-favicon.svg",
+      "url": "/assets/brand/ctrl-favicon.svg",
+      "format": "svg",
+      "bytes": 362,
+      "sha256": "d280752b9f0de977caaf504d083610d89d64f80e71b07e970cab6295e2b7a83d",
+      "width": 64,
+      "height": 64,
+      "viewBox": [
+        0.0,
+        0.0,
+        64.0,
+        64.0
+      ],
+      "category": "brand",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "ui"
+    },
+    {
+      "id": "brand__ctrl-mark",
+      "path": "brand/ctrl-mark.svg",
+      "url": "/assets/brand/ctrl-mark.svg",
+      "format": "svg",
+      "bytes": 373,
+      "sha256": "1d0ffef4acfb0367da026f5b0fd83d89657a56a39bdff1444be8128613107c5f",
+      "width": 64,
+      "height": 64,
+      "viewBox": [
+        0.0,
+        0.0,
+        64.0,
+        64.0
+      ],
+      "category": "brand",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "ui"
+    },
+    {
+      "id": "brand__ctrl-wordmark-dark",
+      "path": "brand/ctrl-wordmark-dark.svg",
+      "url": "/assets/brand/ctrl-wordmark-dark.svg",
+      "format": "svg",
+      "bytes": 628,
+      "sha256": "8c5a707c481b66a36a038d1a5f556c8cf4409651b8b34baf462edd3b642b37af",
+      "width": 208,
+      "height": 56,
+      "viewBox": [
+        0.0,
+        0.0,
+        208.0,
+        56.0
+      ],
+      "category": "brand",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "ui"
+    },
+    {
+      "id": "brand__ctrl-wordmark-light",
+      "path": "brand/ctrl-wordmark-light.svg",
+      "url": "/assets/brand/ctrl-wordmark-light.svg",
+      "format": "svg",
+      "bytes": 628,
+      "sha256": "443e0c0b90410a34d4a78c4b26a3163b4d9d58b698547e44a772de82ba8bdecb",
+      "width": 208,
+      "height": 56,
+      "viewBox": [
+        0.0,
+        0.0,
+        208.0,
+        56.0
+      ],
+      "category": "brand",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "ui"
+    },
+    {
+      "id": "brand__social-card",
+      "path": "brand/social-card.png",
+      "url": "/assets/brand/social-card.png",
+      "format": "png",
+      "bytes": 964541,
+      "sha256": "ea4bf3ea3ad5d062ff5447bd421af63d871a452e0acaebccea33096dd7b877b7",
+      "width": 1200,
+      "height": 630,
+      "category": "brand",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "ui"
+    },
+    {
+      "id": "brand__social-card",
+      "path": "brand/social-card.svg",
+      "url": "/assets/brand/social-card.svg",
+      "format": "svg",
+      "bytes": 3002293,
+      "sha256": "fbc537ef2be9393ec9ad1107cc74e0943ff7b9d43066ec3f6b703274819ca627",
+      "width": 1200,
+      "height": 630,
+      "viewBox": [
+        0.0,
+        0.0,
+        1200.0,
+        630.0
+      ],
+      "category": "brand",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "ui"
+    },
+    {
+      "id": "brand__token-test",
+      "path": "brand/token-test.svg",
+      "url": "/assets/brand/token-test.svg",
+      "format": "svg",
+      "bytes": 467,
+      "sha256": "ed1355c2b4af02bbeac7bc13055f99eb5931d842f990f980ea6f940dd11d260b",
+      "width": 64,
+      "height": 64,
+      "viewBox": [
+        0.0,
+        0.0,
+        64.0,
+        64.0
+      ],
+      "category": "brand",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "ui"
+    },
+    {
+      "id": "clownfish",
+      "path": "clownfish.svg",
+      "url": "/assets/clownfish.svg",
+      "format": "svg",
+      "bytes": 2269,
+      "sha256": "9c6ef110eccaba6548a8ec49ce9ce9983758be4c4501f4d0df5d587d2cd182b1",
+      "width": 192,
+      "height": 112,
+      "viewBox": [
+        0.0,
+        0.0,
+        192.0,
+        112.0
+      ],
+      "category": "creatures",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "facing": "right"
+    },
+    {
+      "id": "contact-sheet",
+      "path": "contact-sheet.png",
+      "url": "/assets/contact-sheet.png",
+      "format": "png",
+      "bytes": 340277,
+      "sha256": "7e4aa0c395414d9cc069b8537675f2f8e5eddd378782966ec5c6e6c9ca8d1875",
+      "width": 1300,
+      "height": 1202,
+      "category": "preview",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "reference"
+    },
+    {
+      "id": "contact-sheet",
+      "path": "contact-sheet.svg",
+      "url": "/assets/contact-sheet.svg",
+      "format": "svg",
+      "bytes": 63786,
+      "sha256": "9e3a8b0c37468a9c5e145b8a948bcb0d494417b8a56db80b23d580f254846dfc",
+      "width": 1300,
+      "height": 1202,
+      "viewBox": [
+        0.0,
+        0.0,
+        1300.0,
+        1202.0
+      ],
+      "category": "preview",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "reference"
+    },
+    {
+      "id": "crab",
+      "path": "crab.svg",
+      "url": "/assets/crab.svg",
+      "format": "svg",
+      "bytes": 1339,
+      "sha256": "61d3049d34d5226b2d68cf830e173a15372a3ec4cb6080e2e62564de820a0105",
+      "width": 168,
+      "height": 112,
+      "viewBox": [
+        0.0,
+        0.0,
+        168.0,
+        112.0
+      ],
+      "category": "creatures",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "facing": "front"
+    },
+    {
+      "id": "effects__black-hole",
+      "path": "effects/black-hole.svg",
+      "url": "/assets/effects/black-hole.svg",
+      "format": "svg",
+      "bytes": 1192,
+      "sha256": "99228fdacc9186a69f2c9d25d5a58ced9b181cfb20a02200d7fca5b861444e5d",
+      "width": 320,
+      "height": 240,
+      "viewBox": [
+        0.0,
+        0.0,
+        320.0,
+        240.0
+      ],
+      "category": "effects",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "overlay"
+    },
+    {
+      "id": "effects__bubble-burst",
+      "path": "effects/bubble-burst.svg",
+      "url": "/assets/effects/bubble-burst.svg",
+      "format": "svg",
+      "bytes": 543,
+      "sha256": "8ea0b170ff44cf568961a380b0e11edbe251e89866a18016f6308bb8e8baeb85",
+      "width": 192,
+      "height": 192,
+      "viewBox": [
+        0.0,
+        0.0,
+        192.0,
+        192.0
+      ],
+      "category": "effects",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "overlay"
+    },
+    {
+      "id": "effects__bubbles",
+      "path": "effects/bubbles.svg",
+      "url": "/assets/effects/bubbles.svg",
+      "format": "svg",
+      "bytes": 733,
+      "sha256": "dd3c8c9d035f79bc5ab43f22ce9a487d8eee193ab187dc5ce4c8f8deeca72a69",
+      "width": 128,
+      "height": 256,
+      "viewBox": [
+        0.0,
+        0.0,
+        128.0,
+        256.0
+      ],
+      "category": "effects",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "overlay"
+    },
+    {
+      "id": "effects__concern",
+      "path": "effects/concern.svg",
+      "url": "/assets/effects/concern.svg",
+      "format": "svg",
+      "bytes": 336,
+      "sha256": "70565d5e6917fe14446f456c4795a0307d4dcab201f8764a1bd4ffb402435dcd",
+      "width": 80,
+      "height": 64,
+      "viewBox": [
+        0.0,
+        0.0,
+        80.0,
+        64.0
+      ],
+      "category": "effects",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "overlay"
+    },
+    {
+      "id": "effects__disco-beams",
+      "path": "effects/disco-beams.svg",
+      "url": "/assets/effects/disco-beams.svg",
+      "format": "svg",
+      "bytes": 1377,
+      "sha256": "9a1affe2455745c8bbb6611d53ece5c252a11bd94233726c0b5f00db3b53bd6a",
+      "width": 1586,
+      "height": 992,
+      "viewBox": [
+        0.0,
+        0.0,
+        1586.0,
+        992.0
+      ],
+      "category": "effects",
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "overlay"
+    },
+    {
+      "id": "effects__empty-reveal",
+      "path": "effects/empty-reveal.svg",
+      "url": "/assets/effects/empty-reveal.svg",
+      "format": "svg",
+      "bytes": 458,
+      "sha256": "cb4c614aea234537f3933f9b891ab87f7959b86ebcca0559b6d1f4b7c15183f3",
+      "width": 128,
+      "height": 128,
+      "viewBox": [
+        0.0,
+        0.0,
+        128.0,
+        128.0
+      ],
+      "category": "effects",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "overlay"
+    },
+    {
+      "id": "effects__food-pellet",
+      "path": "effects/food-pellet.svg",
+      "url": "/assets/effects/food-pellet.svg",
+      "format": "svg",
+      "bytes": 692,
+      "sha256": "a7f80433812777c4b84aba5c601584ce91707efadf0fc65dc582fc8b245054d8",
+      "width": 32,
+      "height": 32,
+      "viewBox": [
+        0.0,
+        0.0,
+        32.0,
+        32.0
+      ],
+      "category": "effects",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "overlay"
+    },
+    {
+      "id": "effects__frozen-glass",
+      "path": "effects/frozen-glass.svg",
+      "url": "/assets/effects/frozen-glass.svg",
+      "format": "svg",
+      "bytes": 1858,
+      "sha256": "ccda6e2647f47b814fd8c191cae97a5fece581e1ff57473c0572392b5d96dcde",
+      "width": 1586,
+      "height": 992,
+      "viewBox": [
+        0.0,
+        0.0,
+        1586.0,
+        992.0
+      ],
+      "category": "effects",
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "overlay"
+    },
+    {
+      "id": "effects__ground-shadow",
+      "path": "effects/ground-shadow.svg",
+      "url": "/assets/effects/ground-shadow.svg",
+      "format": "svg",
+      "bytes": 206,
+      "sha256": "57b07b2d28c3a589e317eebc30d62d4750c66c0b0edba3921ff9072fe967afe9",
+      "width": 160,
+      "height": 48,
+      "viewBox": [
+        0.0,
+        0.0,
+        160.0,
+        48.0
+      ],
+      "category": "effects",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "overlay"
+    },
+    {
+      "id": "effects__light-rays",
+      "path": "effects/light-rays.svg",
+      "url": "/assets/effects/light-rays.svg",
+      "format": "svg",
+      "bytes": 1124,
+      "sha256": "55c278fcd44332e297bb347f8760a9d0c2650dd4b0c374e38a3fee78227ce5c6",
+      "width": 1586,
+      "height": 992,
+      "viewBox": [
+        0.0,
+        0.0,
+        1586.0,
+        992.0
+      ],
+      "category": "effects",
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "overlay"
+    },
+    {
+      "id": "effects__reward-coin",
+      "path": "effects/reward-coin.svg",
+      "url": "/assets/effects/reward-coin.svg",
+      "format": "svg",
+      "bytes": 715,
+      "sha256": "b9cdb4459aeaa70e69ffeb2d7ae902a1d03c3f00170821151393390deac3176e",
+      "width": 128,
+      "height": 128,
+      "viewBox": [
+        0.0,
+        0.0,
+        128.0,
+        128.0
+      ],
+      "category": "effects",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "overlay"
+    },
+    {
+      "id": "effects__sparkle",
+      "path": "effects/sparkle.svg",
+      "url": "/assets/effects/sparkle.svg",
+      "format": "svg",
+      "bytes": 814,
+      "sha256": "825b3643ef7fc79963a2d7cc752696d4f11b4ad276048d326f36805f3afb893b",
+      "width": 64,
+      "height": 64,
+      "viewBox": [
+        0.0,
+        0.0,
+        64.0,
+        64.0
+      ],
+      "category": "effects",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "overlay"
+    },
+    {
+      "id": "fish-blue",
+      "path": "fish-blue.svg",
+      "url": "/assets/fish-blue.svg",
+      "format": "svg",
+      "bytes": 1421,
+      "sha256": "1e71baee53d72ed4ea6b4b82d1a4b817537bb3e66584343b873c79c428a616b3",
+      "width": 160,
+      "height": 96,
+      "viewBox": [
+        0.0,
+        0.0,
+        160.0,
+        96.0
+      ],
+      "category": "creatures",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "facing": "right"
+    },
+    {
+      "id": "fish-orange",
+      "path": "fish-orange.svg",
+      "url": "/assets/fish-orange.svg",
+      "format": "svg",
+      "bytes": 1434,
+      "sha256": "cc439612f207bdd4e02d8f69440e114a1610382f7652b614ea43b44808c1ff5e",
+      "width": 160,
+      "height": 96,
+      "viewBox": [
+        0.0,
+        0.0,
+        160.0,
+        96.0
+      ],
+      "category": "creatures",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "facing": "right"
+    },
+    {
+      "id": "fish-yellow",
+      "path": "fish-yellow.svg",
+      "url": "/assets/fish-yellow.svg",
+      "format": "svg",
+      "bytes": 1296,
+      "sha256": "82c25ae954f5a7c7c61f5dca59f438a284f44e546db3db636e18f33c9028f169",
+      "width": 160,
+      "height": 96,
+      "viewBox": [
+        0.0,
+        0.0,
+        160.0,
+        96.0
+      ],
+      "category": "creatures",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "facing": "right"
+    },
+    {
+      "id": "jellyfish",
+      "path": "jellyfish.svg",
+      "url": "/assets/jellyfish.svg",
+      "format": "svg",
+      "bytes": 1484,
+      "sha256": "06ddf0ee28e251974480fbf5a65a988f714d85c538b7229fb1dc3589cda28f4c",
+      "width": 104,
+      "height": 156,
+      "viewBox": [
+        0.0,
+        0.0,
+        104.0,
+        156.0
+      ],
+      "category": "creatures",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "facing": "front"
+    },
+    {
+      "id": "lionfish",
+      "path": "lionfish.svg",
+      "url": "/assets/lionfish.svg",
+      "format": "svg",
+      "bytes": 2700,
+      "sha256": "4d5e2d7299be39cefb66bbbb91b2719a44be9c3cf300de94da390f12959a640a",
+      "width": 224,
+      "height": 176,
+      "viewBox": [
+        0.0,
+        0.0,
+        224.0,
+        176.0
+      ],
+      "category": "creatures",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "facing": "right"
+    },
+    {
+      "id": "manta-ray",
+      "path": "manta-ray.svg",
+      "url": "/assets/manta-ray.svg",
+      "format": "svg",
+      "bytes": 2080,
+      "sha256": "852081909a7457160b48d1a229a2ccd516a8c6b01de7c812b8f0accfb694d98d",
+      "width": 280,
+      "height": 176,
+      "viewBox": [
+        0.0,
+        0.0,
+        280.0,
+        176.0
+      ],
+      "category": "creatures",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "facing": "right"
+    },
+    {
+      "id": "png__anglerfish@2x",
+      "path": "png/anglerfish@2x.png",
+      "url": "/assets/png/anglerfish@2x.png",
+      "format": "png",
+      "bytes": 39338,
+      "sha256": "056c3b78d1c25467920fa8e508a5fad331b20a13928fb944f7072606d23e3e50",
+      "width": 448,
+      "height": 320,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "pixelRatio": 2,
+      "facing": "right"
+    },
+    {
+      "id": "png__blue-tang@2x",
+      "path": "png/blue-tang@2x.png",
+      "url": "/assets/png/blue-tang@2x.png",
+      "format": "png",
+      "bytes": 22841,
+      "sha256": "a26146821c7ba8f66389e48425c14bcd82a715db7177d119e1049b9350476eb8",
+      "width": 384,
+      "height": 224,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "pixelRatio": 2,
+      "facing": "right"
+    },
+    {
+      "id": "png__clownfish@2x",
+      "path": "png/clownfish@2x.png",
+      "url": "/assets/png/clownfish@2x.png",
+      "format": "png",
+      "bytes": 25054,
+      "sha256": "4a72a81621d4ed5a954cf50eb09858ce52bdf55eef4cd38ec97628db8a034575",
+      "width": 384,
+      "height": 224,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "pixelRatio": 2,
+      "facing": "right"
+    },
+    {
+      "id": "png__crab@2x",
+      "path": "png/crab@2x.png",
+      "url": "/assets/png/crab@2x.png",
+      "format": "png",
+      "bytes": 16388,
+      "sha256": "15aa789e4390b04e228d3016ebef1d6d73ddf063884f7eb2453bd941ba7d272e",
+      "width": 336,
+      "height": 224,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "pixelRatio": 2,
+      "facing": "front"
+    },
+    {
+      "id": "png__fish-blue@2x",
+      "path": "png/fish-blue@2x.png",
+      "url": "/assets/png/fish-blue@2x.png",
+      "format": "png",
+      "bytes": 18793,
+      "sha256": "f46ffc4ea0962b068b102e6d644c7d280d53b8f280f2974e90f0cd3a50f4ad6e",
+      "width": 320,
+      "height": 192,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "pixelRatio": 2,
+      "facing": "right"
+    },
+    {
+      "id": "png__fish-orange@2x",
+      "path": "png/fish-orange@2x.png",
+      "url": "/assets/png/fish-orange@2x.png",
+      "format": "png",
+      "bytes": 19315,
+      "sha256": "e9006941670462b64c2c09c0a1d5ff1871fc510a5bd4a3523d3df57d4827fb57",
+      "width": 320,
+      "height": 192,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "pixelRatio": 2,
+      "facing": "right"
+    },
+    {
+      "id": "png__fish-yellow@2x",
+      "path": "png/fish-yellow@2x.png",
+      "url": "/assets/png/fish-yellow@2x.png",
+      "format": "png",
+      "bytes": 15827,
+      "sha256": "be77ba2e9bb092e27d0095614abdbcc6672b303bd3aadf090faaafa5175f85d4",
+      "width": 320,
+      "height": 192,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "pixelRatio": 2,
+      "facing": "right"
+    },
+    {
+      "id": "png__jellyfish@2x",
+      "path": "png/jellyfish@2x.png",
+      "url": "/assets/png/jellyfish@2x.png",
+      "format": "png",
+      "bytes": 21876,
+      "sha256": "0b080280f97edddd9040d7c92b75bbc0c41bc2f8cce3f027936c3a42253194e3",
+      "width": 208,
+      "height": 312,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "pixelRatio": 2,
+      "facing": "front"
+    },
+    {
+      "id": "png__lionfish@2x",
+      "path": "png/lionfish@2x.png",
+      "url": "/assets/png/lionfish@2x.png",
+      "format": "png",
+      "bytes": 66511,
+      "sha256": "c12117b212b615aa8cd46448bf7afc3f07a2085e5a4470b136520abc87f6cb24",
+      "width": 448,
+      "height": 352,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "pixelRatio": 2,
+      "facing": "right"
+    },
+    {
+      "id": "png__manta-ray@2x",
+      "path": "png/manta-ray@2x.png",
+      "url": "/assets/png/manta-ray@2x.png",
+      "format": "png",
+      "bytes": 26422,
+      "sha256": "71f5ecaf78da35e1eb4de7998a8b1e4fd243f833ba2a52e0a975bb940b48cc48",
+      "width": 560,
+      "height": 352,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "pixelRatio": 2,
+      "facing": "right"
+    },
+    {
+      "id": "png__seaweed@2x",
+      "path": "png/seaweed@2x.png",
+      "url": "/assets/png/seaweed@2x.png",
+      "format": "png",
+      "bytes": 29238,
+      "sha256": "ea8505a522efb0e575669a50ce7915005b6b73899fb545741d81f3c4080fdcd2",
+      "width": 224,
+      "height": 408,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props",
+      "pixelRatio": 2
+    },
+    {
+      "id": "png__shark@2x",
+      "path": "png/shark@2x.png",
+      "url": "/assets/png/shark@2x.png",
+      "format": "png",
+      "bytes": 25605,
+      "sha256": "70f85ee442c3d52cd68809f4fb5ba55e9560e730bf086fcd64f2a5d5901fdb75",
+      "width": 480,
+      "height": 240,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "pixelRatio": 2,
+      "facing": "right"
+    },
+    {
+      "id": "png__shelter@2x",
+      "path": "png/shelter@2x.png",
+      "url": "/assets/png/shelter@2x.png",
+      "format": "png",
+      "bytes": 28496,
+      "sha256": "5390cd00254d3d3ae182d3ffcda5a696ab71f3c09bff64d23ece1e4b56579b01",
+      "width": 480,
+      "height": 352,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props",
+      "pixelRatio": 2
+    },
+    {
+      "id": "png__treasure-empty@2x",
+      "path": "png/treasure-empty@2x.png",
+      "url": "/assets/png/treasure-empty@2x.png",
+      "format": "png",
+      "bytes": 32525,
+      "sha256": "dc643bf3e587af43959b1f96f807816f596d8a766c257a2ac586ae3bf26a8195",
+      "width": 368,
+      "height": 304,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props",
+      "pixelRatio": 2
+    },
+    {
+      "id": "png__treasure-open@2x",
+      "path": "png/treasure-open@2x.png",
+      "url": "/assets/png/treasure-open@2x.png",
+      "format": "png",
+      "bytes": 39239,
+      "sha256": "e3d408a821a4cc69b12041d5889ad18b4a2d49cb72f929cec2aa8d0b0643bdb9",
+      "width": 368,
+      "height": 304,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props",
+      "pixelRatio": 2
+    },
+    {
+      "id": "png__treasure@2x",
+      "path": "png/treasure@2x.png",
+      "url": "/assets/png/treasure@2x.png",
+      "format": "png",
+      "bytes": 29134,
+      "sha256": "74b6f2ee7974fe39cc1e2572cda99d3e90a32ea3b303f5e3beb111f2154c5a3f",
+      "width": 368,
+      "height": 304,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props",
+      "pixelRatio": 2
+    },
+    {
+      "id": "png__whale@2x",
+      "path": "png/whale@2x.png",
+      "url": "/assets/png/whale@2x.png",
+      "format": "png",
+      "bytes": 47453,
+      "sha256": "e82bd9a8a4c12e01cb47f509bbeb574823e0128200d4e32bf714c0d3c6da87c8",
+      "width": 800,
+      "height": 416,
+      "category": "png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "pixelRatio": 2,
+      "facing": "right"
+    },
+    {
+      "id": "props__coral-blue",
+      "path": "props/coral-blue.svg",
+      "url": "/assets/props/coral-blue.svg",
+      "format": "svg",
+      "bytes": 1656,
+      "sha256": "2c3b68bff2250e43b5323ee2df17697bf47490dcb9bb909ecef107ffe3643be0",
+      "width": 220,
+      "height": 240,
+      "viewBox": [
+        0.0,
+        0.0,
+        220.0,
+        240.0
+      ],
+      "category": "props",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props"
+    },
+    {
+      "id": "props__coral-pink",
+      "path": "props/coral-pink.svg",
+      "url": "/assets/props/coral-pink.svg",
+      "format": "svg",
+      "bytes": 1607,
+      "sha256": "926fe7707477ab815996c5165c0b6500217c75975f5462a7bb02c844d74da07f",
+      "width": 240,
+      "height": 240,
+      "viewBox": [
+        0.0,
+        0.0,
+        240.0,
+        240.0
+      ],
+      "category": "props",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props"
+    },
+    {
+      "id": "props__rocks",
+      "path": "props/rocks.svg",
+      "url": "/assets/props/rocks.svg",
+      "format": "svg",
+      "bytes": 1530,
+      "sha256": "afde5f7e44ff82feb25663b940336878743782bc67b9736502406b62c4552c18",
+      "width": 320,
+      "height": 160,
+      "viewBox": [
+        0.0,
+        0.0,
+        320.0,
+        160.0
+      ],
+      "category": "props",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props"
+    },
+    {
+      "id": "props__ruin",
+      "path": "props/ruin.svg",
+      "url": "/assets/props/ruin.svg",
+      "format": "svg",
+      "bytes": 2177,
+      "sha256": "e635f9c5b8bf49981470769259258625fb805334ecf1fe95456966b50055a658",
+      "width": 360,
+      "height": 300,
+      "viewBox": [
+        0.0,
+        0.0,
+        360.0,
+        300.0
+      ],
+      "category": "props",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props"
+    },
+    {
+      "id": "props__signpost",
+      "path": "props/signpost.svg",
+      "url": "/assets/props/signpost.svg",
+      "format": "svg",
+      "bytes": 1415,
+      "sha256": "542b02064dd202fe2ce2f7bc3c8b615cec49a9f3af919bf84ba3d493b46028d1",
+      "width": 180,
+      "height": 220,
+      "viewBox": [
+        0.0,
+        0.0,
+        180.0,
+        220.0
+      ],
+      "category": "props",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props"
+    },
+    {
+      "id": "props__surface-lamp",
+      "path": "props/surface-lamp.svg",
+      "url": "/assets/props/surface-lamp.svg",
+      "format": "svg",
+      "bytes": 1291,
+      "sha256": "a6c480f12379d66d8fcc0968c059b2f9c3307009959fe335e4cdfca40bd8d1a0",
+      "width": 160,
+      "height": 160,
+      "viewBox": [
+        0.0,
+        0.0,
+        160.0,
+        160.0
+      ],
+      "category": "props",
+      "anchor": {
+        "x": 0.5,
+        "y": 0
+      },
+      "layer": "props"
+    },
+    {
+      "id": "rewards__aapl-demo",
+      "path": "rewards/aapl-demo.png",
+      "url": "/assets/rewards/aapl-demo.png",
+      "format": "png",
+      "bytes": 19313,
+      "sha256": "c6200b9c24aeb98830588bab02b2f232e96072e4348044e2e8fa1503e4db51b8",
+      "width": 480,
+      "height": 320,
+      "category": "rewards",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "reference"
+    },
+    {
+      "id": "rewards__aapl-demo",
+      "path": "rewards/aapl-demo.svg",
+      "url": "/assets/rewards/aapl-demo.svg",
+      "format": "svg",
+      "bytes": 1117,
+      "sha256": "d4e44abc75b717165213856f3b4f79c2d09c7330e8c3f79e064273fe72c447eb",
+      "width": 240,
+      "height": 160,
+      "viewBox": [
+        0.0,
+        0.0,
+        240.0,
+        160.0
+      ],
+      "category": "rewards",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "reference"
+    },
+    {
+      "id": "rewards__msft-demo",
+      "path": "rewards/msft-demo.png",
+      "url": "/assets/rewards/msft-demo.png",
+      "format": "png",
+      "bytes": 20177,
+      "sha256": "2597107a9dbffe2ab47810fad5dc0dc4076c87255cac9e3522e6794d95193980",
+      "width": 480,
+      "height": 320,
+      "category": "rewards",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "reference"
+    },
+    {
+      "id": "rewards__msft-demo",
+      "path": "rewards/msft-demo.svg",
+      "url": "/assets/rewards/msft-demo.svg",
+      "format": "svg",
+      "bytes": 1117,
+      "sha256": "7540c19710a474b913e6ad0f22baea3b8bbfe07a911ac605a654972f5b8c7739",
+      "width": 240,
+      "height": 160,
+      "viewBox": [
+        0.0,
+        0.0,
+        240.0,
+        160.0
+      ],
+      "category": "rewards",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "reference"
+    },
+    {
+      "id": "rewards__nvda-demo",
+      "path": "rewards/nvda-demo.png",
+      "url": "/assets/rewards/nvda-demo.png",
+      "format": "png",
+      "bytes": 20491,
+      "sha256": "7f78cfd0a9355916362e24ab2e584cecd0be243092f1b92dfc1d038616e9a314",
+      "width": 480,
+      "height": 320,
+      "category": "rewards",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "reference"
+    },
+    {
+      "id": "rewards__nvda-demo",
+      "path": "rewards/nvda-demo.svg",
+      "url": "/assets/rewards/nvda-demo.svg",
+      "format": "svg",
+      "bytes": 1117,
+      "sha256": "895d79b914becde31f52a99fae31fa821d249afaafed88310d33142df6017b7b",
+      "width": 240,
+      "height": 160,
+      "viewBox": [
+        0.0,
+        0.0,
+        240.0,
+        160.0
+      ],
+      "category": "rewards",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "reference"
+    },
+    {
+      "id": "seaweed",
+      "path": "seaweed.svg",
+      "url": "/assets/seaweed.svg",
+      "format": "svg",
+      "bytes": 978,
+      "sha256": "f451eb3bcb78e80dd36a3c09d843a3baeb19f7ee85ed51b856171345ab3fb930",
+      "width": 112,
+      "height": 204,
+      "viewBox": [
+        0.0,
+        0.0,
+        112.0,
+        204.0
+      ],
+      "category": "world-props",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props"
+    },
+    {
+      "id": "shark",
+      "path": "shark.svg",
+      "url": "/assets/shark.svg",
+      "format": "svg",
+      "bytes": 2015,
+      "sha256": "3203d69ce0faefb5a33b2cf872315be464d56792eb8e0fdc6312e119a106894c",
+      "width": 240,
+      "height": 120,
+      "viewBox": [
+        0.0,
+        0.0,
+        240.0,
+        120.0
+      ],
+      "category": "creatures",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "facing": "right"
+    },
+    {
+      "id": "shelter",
+      "path": "shelter.svg",
+      "url": "/assets/shelter.svg",
+      "format": "svg",
+      "bytes": 1583,
+      "sha256": "82bf77ef8a8ee1977f5b19297c4298a7fde116bb709ebe03bd9c5df128b4fe1a",
+      "width": 240,
+      "height": 176,
+      "viewBox": [
+        0.0,
+        0.0,
+        240.0,
+        176.0
+      ],
+      "category": "world-props",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props"
+    },
+    {
+      "id": "treasure-empty",
+      "path": "treasure-empty.svg",
+      "url": "/assets/treasure-empty.svg",
+      "format": "svg",
+      "bytes": 1953,
+      "sha256": "9c2aa58dd20ee4882ea3db1904bf8263bd05af50cab1ae43b19d5bfd8ad28844",
+      "width": 184,
+      "height": 152,
+      "viewBox": [
+        0.0,
+        0.0,
+        184.0,
+        152.0
+      ],
+      "category": "world-props",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props"
+    },
+    {
+      "id": "treasure-open",
+      "path": "treasure-open.svg",
+      "url": "/assets/treasure-open.svg",
+      "format": "svg",
+      "bytes": 2933,
+      "sha256": "9ba40191dbf04f37b2246f01881a9cda8bcdbcb8ad18d27915f7d557b9699c03",
+      "width": 184,
+      "height": 152,
+      "viewBox": [
+        0.0,
+        0.0,
+        184.0,
+        152.0
+      ],
+      "category": "world-props",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props"
+    },
+    {
+      "id": "treasure",
+      "path": "treasure.svg",
+      "url": "/assets/treasure.svg",
+      "format": "svg",
+      "bytes": 1593,
+      "sha256": "c07b416e31243421ae7695e296e9a747729f8db973319823c8e85c5b13a8b14c",
+      "width": 184,
+      "height": 152,
+      "viewBox": [
+        0.0,
+        0.0,
+        184.0,
+        152.0
+      ],
+      "category": "world-props",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "layer": "props"
+    },
+    {
+      "id": "whale-backdrop",
+      "path": "whale-backdrop.png",
+      "url": "/assets/whale-backdrop.png",
+      "format": "png",
+      "bytes": 1897307,
+      "sha256": "8f9f44acc6d180ec4a63e84a82ef69d4fbb59aa7a2211195cf1f70170bd324e8",
+      "width": 1586,
+      "height": 992,
+      "category": "environment",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "background"
+    },
+    {
+      "id": "whale",
+      "path": "whale.svg",
+      "url": "/assets/whale.svg",
+      "format": "svg",
+      "bytes": 3071,
+      "sha256": "c7a36512b0baec58890aa61e6f28fbe4d3c0014fe038a8df83c28e03afc58702",
+      "width": 400,
+      "height": 208,
+      "viewBox": [
+        0.0,
+        0.0,
+        400.0,
+        208.0
+      ],
+      "category": "creatures",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "actors",
+      "facing": "right"
+    }
+  ]
+}

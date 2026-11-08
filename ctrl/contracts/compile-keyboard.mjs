@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import solc from 'solc';
+import {keccak256} from 'viem';
+const input={language:'Solidity',sources:{'CTRLKeyboard.sol':{content:fs.readFileSync('contracts/CTRLKeyboard.sol','utf8')}},settings:{viaIR:true,optimizer:{enabled:true,runs:200},evmVersion:'shanghai',outputSelection:{'*':{'*':['abi','evm.bytecode.object','evm.deployedBytecode.object']}}}};
+const result=JSON.parse(solc.compile(JSON.stringify(input),{import(file){return {contents:fs.readFileSync(path.join('node_modules',file),'utf8')}}}));
+const errors=(result.errors??[]).filter(e=>e.severity==='error');if(errors.length)throw new Error(errors.map(e=>e.formattedMessage).join('\n'));
+const c=result.contracts['CTRLKeyboard.sol'].CTRLKeyboard;
+fs.writeFileSync('lib/keyboard.generated.json',JSON.stringify({abi:c.abi,bytecode:'0x'+c.evm.bytecode.object,runtimeHash:keccak256('0x'+c.evm.deployedBytecode.object)}));
+console.log('Compiled CTRLKeyboard: '+c.evm.bytecode.object.length/2+' bytes');

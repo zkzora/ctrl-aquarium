@@ -1,0 +1,32 @@
+{
+  "chainId": 84532,
+  "contract": "0x115dcc1c6d311d65c0c1df808da3bd1467bae7e7",
+  "wallet": "0x85AB6A9E8437Ff0d70444Ad4E78542EB6e857361",
+  "checkedAt": "2026-11-07T12:14:06.269Z",
+  "before": {
+    "balance": 1440,
+    "pool": 300,
+    "dev": 0
+  },
+  "after": {
+    "balance": 1450,
+    "pool": 286,
+    "dev": 4
+  },
+  "explodePayout": 30,
+  "transactions": {
+    "migration": "0x0c2417c04e530f864bec87925086a7a1243b4e9ef17bba40cf09d6ee90f5393c",
+    "addBuy": "0xa5b9cea7a275fd03278de93757af7bf2076c1514f2304a0d2b4f5853db37dfbe",
+    "addExecute": "0xb31cde9abe037451e2a73d69a9002873a45af8b57357026f2d4ddd37cac2f49e",
+    "explodeBuy": "0x8695007c32e61c7fda7d15b28b9fbf1d4eff3d1013b01176504ce29371b3aca8",
+    "explodeExecute": "0x61177b4868de344e341b0c48f79ec3f20af780f9d6361f4ca5e0d3f0e7e46045"
+  },
+  "verified": [
+    "one turn per command",
+    "no hatch or fish purchase",
+    "80/20 allocation",
+    "contribute before explode",
+    "confirmed chain payout",
+    "legacy balance retained"
+  ]
+}

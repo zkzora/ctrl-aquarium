@@ -1,0 +1,11 @@
+{
+  "contract": "0x115dcc1c6d311d65c0c1df808da3bd1467bae7e7",
+  "hash": "0xf5ed2f3b9ab595e8a7ea3d56d9b722cc7c7c5f35ba68758c00637c9d46b68366",
+  "block": "55657698",
+  "chainId": 84532,
+  "admin": "0xd41C88eE843dcCBe6E8AD3D62e4c33Ccb6C9787b",
+  "oracle": "0xCCc109e39ADf2A6F8B12411F214c63Dea0CF3b5F",
+  "legacy": "0x06be0d3e30f135a3fd9a18a9e0476ed077fb5c15",
+  "runtimeHash": "0xb367e413b42a37880816756dc57b6fa8c0855ea2dca27ff109c9f3e32d148ece",
+  "deployedAt": "2026-11-07T12:10:07.005Z"
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="224" height="160" viewBox="0 0 224 160" role="img" aria-labelledby="t">
+  <title id="t">Deep sea anglerfish with a glowing lure</title>
+  <defs>
+    <linearGradient id="angler-body" x1="0" y1="0" x2=".25" y2="1"><stop stop-color="#8194b2"/><stop offset=".5" stop-color="#5d708f"/><stop offset="1" stop-color="#3d536f"/></linearGradient>
+    <linearGradient id="angler-fin" x1="0" y1="0" x2=".25" y2="1"><stop stop-color="#93a6bc"/><stop offset="1" stop-color="#65798f"/></linearGradient>
+    <radialGradient id="angler-glow"><stop stop-color="#f5ecc0" stop-opacity=".42"/><stop offset="1" stop-color="#efe9ac" stop-opacity="0"/></radialGradient>
+    <linearGradient id="angler-light" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#fff7c9"/><stop offset="1" stop-color="#cfdfa2"/></linearGradient>
+  </defs>
+  <circle cx="196" cy="28" r="21" fill="url(#angler-glow)"/>
+  <path d="M160 59c-12-22-6-43 13-47 14-4 24 3 23 13" fill="none" stroke="#667f91" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M161 55c-8-17-6-31 2-37" fill="none" stroke="#a2b6be" stroke-width="1.1" stroke-linecap="round" opacity=".8"/>
+  <ellipse cx="196" cy="28" rx="8" ry="10" fill="url(#angler-light)" stroke="#a8bb9f" stroke-width="1.7"/>
+  <path d="M194 22c-2 2-3 5-2 7" fill="none" stroke="#fffde0" stroke-width="2" stroke-linecap="round"/>
+  <g fill="url(#angler-fin)" stroke="#3e526d" stroke-width="2" stroke-linejoin="round">
+    <path d="M79 87 29 61l7 27-14 22 20 4 28-8Z"/>
+    <path d="m82 70-8-23 19 6 7-20 16 15 14-15 10 20 18-9 1 21Z"/>
+    <path d="m79 118-9 20 25-3 10 17 16-13 17 13 9-16 17 4-2-19Z"/>
+  </g>
+  <path d="M68 96c2-28 25-48 58-49 30-2 52 10 66 29l14 11-12 12 15 21-16 11c-16 15-43 21-70 15-29-5-49-22-55-50Z" fill="url(#angler-body)" stroke="#354b66" stroke-width="2.7" stroke-linejoin="round"/>
+  <path d="M99 126c28 14 64 14 89-1-8 12-35 20-61 15-12-2-22-7-28-14Z" fill="#8198a8" opacity=".7"/>
+  <path d="M190 78c6 6 10 10 16 13l-11 9 12 20c-11 6-22 4-27-4-8-12-5-26 10-38Z" fill="#253b51" stroke="#2e455d" stroke-width="2" stroke-linejoin="round"/>
+  <path d="m190 84-2 15 7-11m-11 3-4 15 9-10m8 22-4-13-2 15m-6-3-1-13-5 8" fill="#e3dec5" stroke="#adb4ae" stroke-width=".8" stroke-linejoin="round"/>
+  <path d="M130 97c-18 3-29 14-34 30 15-1 29-7 39-19Z" fill="url(#angler-fin)" stroke="#405671" stroke-width="2" stroke-linejoin="round"/>
+  <path d="m106 119 23-17m-92-30 27 23-30 10m62-53 5 14m16-20 1 17m19-13-5 14" fill="none" stroke="#516781" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M91 75c13-13 31-17 46-15" fill="none" stroke="#b0bfca" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+  <g fill="#8ea2b8" opacity=".55"><circle cx="113" cy="83" r="2.3"/><circle cx="139" cy="76" r="1.8"/><circle cx="94" cy="97" r="2"/><circle cx="153" cy="125" r="2"/><circle cx="144" cy="93" r="1.6"/></g>
+  <ellipse cx="173" cy="77" rx="6.5" ry="7.5" fill="#d6dec9"/><ellipse cx="175" cy="78" rx="3.7" ry="5.3" fill="#253c50"/><circle cx="176" cy="75.5" r="1.3" fill="#fff6d2"/>
+</svg>

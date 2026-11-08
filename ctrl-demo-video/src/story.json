@@ -1,0 +1,72 @@
+[
+  {
+    "id": "hook",
+    "seconds": 12,
+    "title": "One world.\nToo many hands.",
+    "eyebrow": "CTRL / VIBEATHON DEMO",
+    "narration": "One world. Everyone wants the keyboard. This is Control: a shared aquarium where each person's strange idea becomes the next player's starting point."
+  },
+  {
+    "id": "world",
+    "seconds": 13,
+    "title": "One turn.\nOne command.",
+    "eyebrow": "01 / A WORLD YOU INHERIT",
+    "narration": "Add a shark. Build a shelter. Reverse gravity. Control is the product: buy a keyboard turn, run one command, and pass the changed world to the next player."
+  },
+  {
+    "id": "wallet",
+    "seconds": 13,
+    "title": "Connect.\nClaim. Create.",
+    "eyebrow": "02 / BASE SEPOLIA",
+    "narration": "Connect your wallet on Base Sepolia and sign in. Claim 1,500 free test credits. Your balance and daily limits follow your wallet when you reconnect."
+  },
+  {
+    "id": "pack",
+    "seconds": 16,
+    "title": "Your turn\nfeeds the pool.",
+    "eyebrow": "03 / THE KEYBOARD ECONOMY",
+    "narration": "Public turns cost 10 credits. Whale turns cost fifty. 80% funds the shared reward pool; 20% goes to the developer. Confirm payment, then execution, with no second credit charge."
+  },
+  {
+    "id": "proof",
+    "seconds": 17,
+    "title": "A real run.\nA real receipt.",
+    "eyebrow": "04 / VERIFIED TESTNET RUN",
+    "narration": "Our completed testnet run started with 1,440 credits. Adding a fish and exploding one cost 20. The random reward was 30, leaving 1,450. 16 credits went to the pool; 4 to the developer."
+  },
+  {
+    "id": "whale",
+    "seconds": 13,
+    "title": "Bigger fish.\nShared rules.",
+    "eyebrow": "05 / WHALE AQUARIUM",
+    "narration": "Add a fish or treasure to unlock a reward command. Explode a shared fish or open a chest. 60% of base rolls are empty; rewards are capped by the pool."
+  },
+  {
+    "id": "hole",
+    "seconds": 19,
+    "title": "Pull the world\ninto the void.",
+    "eyebrow": "06 / BLACK HOLE",
+    "narration": "A black hole uses one paid turn. It rolls for the quoted fish and treasure, swallows the entire world, and starts a new round. Inhabitants return gradually. Both aquariums receive up to 300 fresh pool credits from finite treasury reserves."
+  },
+  {
+    "id": "limits",
+    "seconds": 14,
+    "title": "Build first.\nDiscover next.",
+    "eyebrow": "07 / BOUNDED REWARDS",
+    "narration": "Each wallet can buy 20 turns, 5 reward commands, and one black hole per rolling day. Each discovery consumes a contribution. Wallet limits alone do not stop someone using multiple wallets."
+  },
+  {
+    "id": "trust",
+    "seconds": 14,
+    "title": "Inspect\nthe mechanism.",
+    "eyebrow": "08 / WHAT TO TRUST",
+    "narration": "Payments, fee splitting and payouts settle on Base Sepolia. The server chooses random results. Commitments show that paid outcomes were not changed; they do not prove independently fair randomness. The rules are published."
+  },
+  {
+    "id": "end",
+    "seconds": 9,
+    "title": "What would\nyou change?",
+    "eyebrow": "CTRL / YOUR TURN",
+    "narration": "Try Control. Inherit the world. Leave it a little stranger. Test credits and stock-inspired souvenirs have no cash value."
+  }
+]

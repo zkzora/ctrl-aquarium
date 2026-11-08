@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="896" height="176" viewBox="0 0 896 176" role="img"><title>lionfish four-frame motion sheet</title><svg x="0" y="0" width="224" height="176" viewBox="0 0 224 176" overflow="hidden"><g transform="translate(112.0 88.0) rotate(0) scale(1.0 1.0) translate(-112.0 -88.0)"><defs>
+    <linearGradient id="f0_lion-body" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#f1d8b0" /><stop offset=".55" stop-color="#d8a77e" /><stop offset="1" stop-color="#aa765e" /></linearGradient>
+    <linearGradient id="f0_lion-fin" x1="0" y1="0" x2=".25" y2="1"><stop stop-color="#edc6a5" stop-opacity=".87" /><stop offset="1" stop-color="#a56765" stop-opacity=".57" /></linearGradient>
+    <clipPath id="f0_lion-shape"><path d="M60 94c12-22 37-37 68-36 32 1 56 14 68 37l8 8-12 9c-15 18-39 27-68 22-29-4-51-16-64-33Z" /></clipPath>
+  </defs>
+  <g fill="url(#f0_lion-fin)" stroke="#815c5a" stroke-width="1.8" stroke-linejoin="round">
+    <path d="M71 85 57 29l26 26-2-43 22 38 11-44 10 43 22-38-3 47 30-27-11 49Z" />
+    <path d="m73 111-29 31 37-11-10 35 29-26 8 29 13-32 23 24-3-34Z" />
+    <path d="M73 90 26 60l12 27-23 13 22 9-8 28 47-29Z" />
+  </g>
+  <g fill="none" stroke="#926463" stroke-width="1.5" stroke-linecap="round"><path d="m76 79-19-50m38 44L81 12m27 55 6-61m13 62 19-57m-4 65 31-45M64 99 26 60m34 44-45-4m47 10-33 27M87 118l-43 24m57-20-30 44m44-36-7 39m20-39 16 31" /></g>
+  <path d="M60 94c12-22 37-37 68-36 32 1 56 14 68 37l8 8-12 9c-15 18-39 27-68 22-29-4-51-16-64-33Z" fill="url(#f0_lion-body)" stroke="#785853" stroke-width="2.5" stroke-linejoin="round" />
+  <g clip-path="url(#f0_lion-shape)" fill="none" stroke="#965f59" stroke-width="8"><path d="M76 61c-7 23-5 46 10 67M94 56c-8 25-5 51 12 80M117 54c-6 24-1 49 15 84M140 56c-7 24-1 48 13 78M164 61c-8 22-3 46 8 67M184 73c-5 15-3 29 4 43" /></g>
+  <path d="M136 94c-13 2-26 8-39 25l-13 35 20-12 8 23 12-20 17 17 2-23 22 11-10-23 21 1-18-21Z" fill="url(#f0_lion-fin)" stroke="#815c5a" stroke-width="1.8" stroke-linejoin="round" />
+  <g fill="none" stroke="#966b66" stroke-width="1.5" stroke-linecap="round"><path d="m138 102-54 52m56-49-28 60m31-57-2 54m5-52 19 40m-16-43 27 21" /></g>
+  <g fill="#e9cfb2"><circle cx="97" cy="131" r="2.2" /><circle cx="113" cy="144" r="2.2" /><circle cx="137" cy="143" r="2" /><circle cx="155" cy="133" r="1.8" /></g>
+  <path d="M78 83c17-12 38-16 55-13" fill="none" stroke="#fae5bf" stroke-width="2.8" stroke-linecap="round" opacity=".7" />
+  <path d="m180 64 3-15 8 17m3 44 7 18m-16-16 2 15" fill="none" stroke="#997066" stroke-width="2.2" stroke-linecap="round" />
+  <ellipse cx="182" cy="84" rx="6.3" ry="7" fill="#f7e7c6" /><ellipse cx="184" cy="85" rx="3.4" ry="4.7" fill="#3f4546" /><circle cx="185" cy="83" r="1.2" fill="#fff9e4" />
+  <path d="m198 103 9 1" fill="none" stroke="#785853" stroke-width="2" stroke-linecap="round" />
+</g></svg><svg x="224" y="0" width="224" height="176" viewBox="0 0 224 176" overflow="hidden"><g transform="translate(112.0 88.0) rotate(0) scale(0.97 1.025) translate(-112.0 -88.0)"><defs>
+    <linearGradient id="f1_lion-body" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#f1d8b0" /><stop offset=".55" stop-color="#d8a77e" /><stop offset="1" stop-color="#aa765e" /></linearGradient>
+    <linearGradient id="f1_lion-fin" x1="0" y1="0" x2=".25" y2="1"><stop stop-color="#edc6a5" stop-opacity=".87" /><stop offset="1" stop-color="#a56765" stop-opacity=".57" /></linearGradient>
+    <clipPath id="f1_lion-shape"><path d="M60 94c12-22 37-37 68-36 32 1 56 14 68 37l8 8-12 9c-15 18-39 27-68 22-29-4-51-16-64-33Z" /></clipPath>
+  </defs>
+  <g fill="url(#f1_lion-fin)" stroke="#815c5a" stroke-width="1.8" stroke-linejoin="round">
+    <path d="M71 85 57 29l26 26-2-43 22 38 11-44 10 43 22-38-3 47 30-27-11 49Z" />
+    <path d="m73 111-29 31 37-11-10 35 29-26 8 29 13-32 23 24-3-34Z" />
+    <path d="M73 90 26 60l12 27-23 13 22 9-8 28 47-29Z" />
+  </g>
+  <g fill="none" stroke="#926463" stroke-width="1.5" stroke-linecap="round"><path d="m76 79-19-50m38 44L81 12m27 55 6-61m13 62 19-57m-4 65 31-45M64 99 26 60m34 44-45-4m47 10-33 27M87 118l-43 24m57-20-30 44m44-36-7 39m20-39 16 31" /></g>
+  <path d="M60 94c12-22 37-37 68-36 32 1 56 14 68 37l8 8-12 9c-15 18-39 27-68 22-29-4-51-16-64-33Z" fill="url(#f1_lion-body)" stroke="#785853" stroke-width="2.5" stroke-linejoin="round" />
+  <g clip-path="url(#f1_lion-shape)" fill="none" stroke="#965f59" stroke-width="8"><path d="M76 61c-7 23-5 46 10 67M94 56c-8 25-5 51 12 80M117 54c-6 24-1 49 15 84M140 56c-7 24-1 48 13 78M164 61c-8 22-3 46 8 67M184 73c-5 15-3 29 4 43" /></g>
+  <path d="M136 94c-13 2-26 8-39 25l-13 35 20-12 8 23 12-20 17 17 2-23 22 11-10-23 21 1-18-21Z" fill="url(#f1_lion-fin)" stroke="#815c5a" stroke-width="1.8" stroke-linejoin="round" />
+  <g fill="none" stroke="#966b66" stroke-width="1.5" stroke-linecap="round"><path d="m138 102-54 52m56-49-28 60m31-57-2 54m5-52 19 40m-16-43 27 21" /></g>
+  <g fill="#e9cfb2"><circle cx="97" cy="131" r="2.2" /><circle cx="113" cy="144" r="2.2" /><circle cx="137" cy="143" r="2" /><circle cx="155" cy="133" r="1.8" /></g>
+  <path d="M78 83c17-12 38-16 55-13" fill="none" stroke="#fae5bf" stroke-width="2.8" stroke-linecap="round" opacity=".7" />
+  <path d="m180 64 3-15 8 17m3 44 7 18m-16-16 2 15" fill="none" stroke="#997066" stroke-width="2.2" stroke-linecap="round" />
+  <ellipse cx="182" cy="84" rx="6.3" ry="7" fill="#f7e7c6" /><ellipse cx="184" cy="85" rx="3.4" ry="4.7" fill="#3f4546" /><circle cx="185" cy="83" r="1.2" fill="#fff9e4" />
+  <path d="m198 103 9 1" fill="none" stroke="#785853" stroke-width="2" stroke-linecap="round" />
+</g></svg><svg x="448" y="0" width="224" height="176" viewBox="0 0 224 176" overflow="hidden"><g transform="translate(112.0 88.0) rotate(0) scale(1.0 1.0) translate(-112.0 -88.0)"><defs>
+    <linearGradient id="f2_lion-body" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#f1d8b0" /><stop offset=".55" stop-color="#d8a77e" /><stop offset="1" stop-color="#aa765e" /></linearGradient>
+    <linearGradient id="f2_lion-fin" x1="0" y1="0" x2=".25" y2="1"><stop stop-color="#edc6a5" stop-opacity=".87" /><stop offset="1" stop-color="#a56765" stop-opacity=".57" /></linearGradient>
+    <clipPath id="f2_lion-shape"><path d="M60 94c12-22 37-37 68-36 32 1 56 14 68 37l8 8-12 9c-15 18-39 27-68 22-29-4-51-16-64-33Z" /></clipPath>
+  </defs>
+  <g fill="url(#f2_lion-fin)" stroke="#815c5a" stroke-width="1.8" stroke-linejoin="round">
+    <path d="M71 85 57 29l26 26-2-43 22 38 11-44 10 43 22-38-3 47 30-27-11 49Z" />
+    <path d="m73 111-29 31 37-11-10 35 29-26 8 29 13-32 23 24-3-34Z" />
+    <path d="M73 90 26 60l12 27-23 13 22 9-8 28 47-29Z" />
+  </g>
+  <g fill="none" stroke="#926463" stroke-width="1.5" stroke-linecap="round"><path d="m76 79-19-50m38 44L81 12m27 55 6-61m13 62 19-57m-4 65 31-45M64 99 26 60m34 44-45-4m47 10-33 27M87 118l-43 24m57-20-30 44m44-36-7 39m20-39 16 31" /></g>
+  <path d="M60 94c12-22 37-37 68-36 32 1 56 14 68 37l8 8-12 9c-15 18-39 27-68 22-29-4-51-16-64-33Z" fill="url(#f2_lion-body)" stroke="#785853" stroke-width="2.5" stroke-linejoin="round" />
+  <g clip-path="url(#f2_lion-shape)" fill="none" stroke="#965f59" stroke-width="8"><path d="M76 61c-7 23-5 46 10 67M94 56c-8 25-5 51 12 80M117 54c-6 24-1 49 15 84M140 56c-7 24-1 48 13 78M164 61c-8 22-3 46 8 67M184 73c-5 15-3 29 4 43" /></g>
+  <path d="M136 94c-13 2-26 8-39 25l-13 35 20-12 8 23 12-20 17 17 2-23 22 11-10-23 21 1-18-21Z" fill="url(#f2_lion-fin)" stroke="#815c5a" stroke-width="1.8" stroke-linejoin="round" />
+  <g fill="none" stroke="#966b66" stroke-width="1.5" stroke-linecap="round"><path d="m138 102-54 52m56-49-28 60m31-57-2 54m5-52 19 40m-16-43 27 21" /></g>
+  <g fill="#e9cfb2"><circle cx="97" cy="131" r="2.2" /><circle cx="113" cy="144" r="2.2" /><circle cx="137" cy="143" r="2" /><circle cx="155" cy="133" r="1.8" /></g>
+  <path d="M78 83c17-12 38-16 55-13" fill="none" stroke="#fae5bf" stroke-width="2.8" stroke-linecap="round" opacity=".7" />
+  <path d="m180 64 3-15 8 17m3 44 7 18m-16-16 2 15" fill="none" stroke="#997066" stroke-width="2.2" stroke-linecap="round" />
+  <ellipse cx="182" cy="84" rx="6.3" ry="7" fill="#f7e7c6" /><ellipse cx="184" cy="85" rx="3.4" ry="4.7" fill="#3f4546" /><circle cx="185" cy="83" r="1.2" fill="#fff9e4" />
+  <path d="m198 103 9 1" fill="none" stroke="#785853" stroke-width="2" stroke-linecap="round" />
+</g></svg><svg x="672" y="0" width="224" height="176" viewBox="0 0 224 176" overflow="hidden"><g transform="translate(112.0 88.0) rotate(0) scale(1.025 0.98) translate(-112.0 -88.0)"><defs>
+    <linearGradient id="f3_lion-body" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#f1d8b0" /><stop offset=".55" stop-color="#d8a77e" /><stop offset="1" stop-color="#aa765e" /></linearGradient>
+    <linearGradient id="f3_lion-fin" x1="0" y1="0" x2=".25" y2="1"><stop stop-color="#edc6a5" stop-opacity=".87" /><stop offset="1" stop-color="#a56765" stop-opacity=".57" /></linearGradient>
+    <clipPath id="f3_lion-shape"><path d="M60 94c12-22 37-37 68-36 32 1 56 14 68 37l8 8-12 9c-15 18-39 27-68 22-29-4-51-16-64-33Z" /></clipPath>
+  </defs>
+  <g fill="url(#f3_lion-fin)" stroke="#815c5a" stroke-width="1.8" stroke-linejoin="round">
+    <path d="M71 85 57 29l26 26-2-43 22 38 11-44 10 43 22-38-3 47 30-27-11 49Z" />
+    <path d="m73 111-29 31 37-11-10 35 29-26 8 29 13-32 23 24-3-34Z" />
+    <path d="M73 90 26 60l12 27-23 13 22 9-8 28 47-29Z" />
+  </g>
+  <g fill="none" stroke="#926463" stroke-width="1.5" stroke-linecap="round"><path d="m76 79-19-50m38 44L81 12m27 55 6-61m13 62 19-57m-4 65 31-45M64 99 26 60m34 44-45-4m47 10-33 27M87 118l-43 24m57-20-30 44m44-36-7 39m20-39 16 31" /></g>
+  <path d="M60 94c12-22 37-37 68-36 32 1 56 14 68 37l8 8-12 9c-15 18-39 27-68 22-29-4-51-16-64-33Z" fill="url(#f3_lion-body)" stroke="#785853" stroke-width="2.5" stroke-linejoin="round" />
+  <g clip-path="url(#f3_lion-shape)" fill="none" stroke="#965f59" stroke-width="8"><path d="M76 61c-7 23-5 46 10 67M94 56c-8 25-5 51 12 80M117 54c-6 24-1 49 15 84M140 56c-7 24-1 48 13 78M164 61c-8 22-3 46 8 67M184 73c-5 15-3 29 4 43" /></g>
+  <path d="M136 94c-13 2-26 8-39 25l-13 35 20-12 8 23 12-20 17 17 2-23 22 11-10-23 21 1-18-21Z" fill="url(#f3_lion-fin)" stroke="#815c5a" stroke-width="1.8" stroke-linejoin="round" />
+  <g fill="none" stroke="#966b66" stroke-width="1.5" stroke-linecap="round"><path d="m138 102-54 52m56-49-28 60m31-57-2 54m5-52 19 40m-16-43 27 21" /></g>
+  <g fill="#e9cfb2"><circle cx="97" cy="131" r="2.2" /><circle cx="113" cy="144" r="2.2" /><circle cx="137" cy="143" r="2" /><circle cx="155" cy="133" r="1.8" /></g>
+  <path d="M78 83c17-12 38-16 55-13" fill="none" stroke="#fae5bf" stroke-width="2.8" stroke-linecap="round" opacity=".7" />
+  <path d="m180 64 3-15 8 17m3 44 7 18m-16-16 2 15" fill="none" stroke="#997066" stroke-width="2.2" stroke-linecap="round" />
+  <ellipse cx="182" cy="84" rx="6.3" ry="7" fill="#f7e7c6" /><ellipse cx="184" cy="85" rx="3.4" ry="4.7" fill="#3f4546" /><circle cx="185" cy="83" r="1.2" fill="#fff9e4" />
+  <path d="m198 103 9 1" fill="none" stroke="#785853" stroke-width="2" stroke-linecap="round" />
+</g></svg></svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="176" viewBox="0 0 1120 176" role="img"><title>manta-ray four-frame motion sheet</title><svg x="0" y="0" width="280" height="176" viewBox="0 0 280 176" overflow="hidden"><g transform="translate(140.0 88.0) rotate(0) scale(1.0 1.0) translate(-140.0 -88.0)"><defs>
+    <linearGradient id="f0_manta-wing" x1="0" y1="0" x2=".35" y2="1"><stop stop-color="#749ca6" /><stop offset=".5" stop-color="#426c80" /><stop offset="1" stop-color="#2e506b" /></linearGradient>
+    <linearGradient id="f0_manta-body" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#7199a4" /><stop offset=".6" stop-color="#41677b" /><stop offset="1" stop-color="#31536b" /></linearGradient>
+  </defs>
+  <path d="M137 87C90 87 60 93 11 83" fill="none" stroke="#2d5266" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M135 86c-2-27-15-48-30-74 31 6 57 21 84 56l23 20Z" fill="url(#f0_manta-wing)" stroke="#315468" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M125 88c22-18 46-28 72-26 17 1 31 8 44 17l5 16c-14 14-34 22-58 21-26-1-46-12-63-28Z" fill="url(#f0_manta-body)" stroke="#315468" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M136 91c17 6 38 8 59 6 18-1 30-5 44-11l1 11c-15 14-34 19-53 17-25-2-38-11-51-23Z" fill="#cbd9ce" />
+  <path d="M193 87c-20 13-39 35-58 76 34-6 68-27 87-57Z" fill="url(#f0_manta-wing)" stroke="#315468" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M186 96c-12 14-23 29-32 48 17-9 29-20 38-34" fill="none" stroke="#82a6ad" stroke-width="2.2" stroke-linecap="round" opacity=".6" />
+  <path d="M240 77c11-7 22-8 24-1 2 5-5 9-11 7l-8 6M239 98c12 8 23 7 25 1 2-5-5-8-12-5l-8-5" fill="#668d97" stroke="#315468" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+  <path d="M151 71c11-4 21-5 30-5M120 31c15 10 29 23 40 38" fill="none" stroke="#a7c5c4" stroke-width="2.6" stroke-linecap="round" opacity=".6" />
+  <path d="m214 95-2 8m-7-7-2 8m-7-7-2 8m-7-8-2 7" stroke="#5c7d85" stroke-width="1.5" stroke-linecap="round" />
+  <ellipse cx="234" cy="79" rx="3.1" ry="3.6" fill="#203d50" /><circle cx="234.8" cy="78.1" r=".9" fill="#e4eddb" />
+  <path d="m245 87 9-1" stroke="#244455" stroke-width="1.7" fill="none" stroke-linecap="round" />
+</g></svg><svg x="280" y="0" width="280" height="176" viewBox="0 0 280 176" overflow="hidden"><g transform="translate(140.0 88.0) rotate(0) scale(0.97 1.025) translate(-140.0 -88.0)"><defs>
+    <linearGradient id="f1_manta-wing" x1="0" y1="0" x2=".35" y2="1"><stop stop-color="#749ca6" /><stop offset=".5" stop-color="#426c80" /><stop offset="1" stop-color="#2e506b" /></linearGradient>
+    <linearGradient id="f1_manta-body" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#7199a4" /><stop offset=".6" stop-color="#41677b" /><stop offset="1" stop-color="#31536b" /></linearGradient>
+  </defs>
+  <path d="M137 87C90 87 60 93 11 83" fill="none" stroke="#2d5266" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M135 86c-2-27-15-48-30-74 31 6 57 21 84 56l23 20Z" fill="url(#f1_manta-wing)" stroke="#315468" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M125 88c22-18 46-28 72-26 17 1 31 8 44 17l5 16c-14 14-34 22-58 21-26-1-46-12-63-28Z" fill="url(#f1_manta-body)" stroke="#315468" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M136 91c17 6 38 8 59 6 18-1 30-5 44-11l1 11c-15 14-34 19-53 17-25-2-38-11-51-23Z" fill="#cbd9ce" />
+  <path d="M193 87c-20 13-39 35-58 76 34-6 68-27 87-57Z" fill="url(#f1_manta-wing)" stroke="#315468" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M186 96c-12 14-23 29-32 48 17-9 29-20 38-34" fill="none" stroke="#82a6ad" stroke-width="2.2" stroke-linecap="round" opacity=".6" />
+  <path d="M240 77c11-7 22-8 24-1 2 5-5 9-11 7l-8 6M239 98c12 8 23 7 25 1 2-5-5-8-12-5l-8-5" fill="#668d97" stroke="#315468" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+  <path d="M151 71c11-4 21-5 30-5M120 31c15 10 29 23 40 38" fill="none" stroke="#a7c5c4" stroke-width="2.6" stroke-linecap="round" opacity=".6" />
+  <path d="m214 95-2 8m-7-7-2 8m-7-7-2 8m-7-8-2 7" stroke="#5c7d85" stroke-width="1.5" stroke-linecap="round" />
+  <ellipse cx="234" cy="79" rx="3.1" ry="3.6" fill="#203d50" /><circle cx="234.8" cy="78.1" r=".9" fill="#e4eddb" />
+  <path d="m245 87 9-1" stroke="#244455" stroke-width="1.7" fill="none" stroke-linecap="round" />
+</g></svg><svg x="560" y="0" width="280" height="176" viewBox="0 0 280 176" overflow="hidden"><g transform="translate(140.0 88.0) rotate(0) scale(1.0 1.0) translate(-140.0 -88.0)"><defs>
+    <linearGradient id="f2_manta-wing" x1="0" y1="0" x2=".35" y2="1"><stop stop-color="#749ca6" /><stop offset=".5" stop-color="#426c80" /><stop offset="1" stop-color="#2e506b" /></linearGradient>
+    <linearGradient id="f2_manta-body" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#7199a4" /><stop offset=".6" stop-color="#41677b" /><stop offset="1" stop-color="#31536b" /></linearGradient>
+  </defs>
+  <path d="M137 87C90 87 60 93 11 83" fill="none" stroke="#2d5266" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M135 86c-2-27-15-48-30-74 31 6 57 21 84 56l23 20Z" fill="url(#f2_manta-wing)" stroke="#315468" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M125 88c22-18 46-28 72-26 17 1 31 8 44 17l5 16c-14 14-34 22-58 21-26-1-46-12-63-28Z" fill="url(#f2_manta-body)" stroke="#315468" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M136 91c17 6 38 8 59 6 18-1 30-5 44-11l1 11c-15 14-34 19-53 17-25-2-38-11-51-23Z" fill="#cbd9ce" />
+  <path d="M193 87c-20 13-39 35-58 76 34-6 68-27 87-57Z" fill="url(#f2_manta-wing)" stroke="#315468" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M186 96c-12 14-23 29-32 48 17-9 29-20 38-34" fill="none" stroke="#82a6ad" stroke-width="2.2" stroke-linecap="round" opacity=".6" />
+  <path d="M240 77c11-7 22-8 24-1 2 5-5 9-11 7l-8 6M239 98c12 8 23 7 25 1 2-5-5-8-12-5l-8-5" fill="#668d97" stroke="#315468" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+  <path d="M151 71c11-4 21-5 30-5M120 31c15 10 29 23 40 38" fill="none" stroke="#a7c5c4" stroke-width="2.6" stroke-linecap="round" opacity=".6" />
+  <path d="m214 95-2 8m-7-7-2 8m-7-7-2 8m-7-8-2 7" stroke="#5c7d85" stroke-width="1.5" stroke-linecap="round" />
+  <ellipse cx="234" cy="79" rx="3.1" ry="3.6" fill="#203d50" /><circle cx="234.8" cy="78.1" r=".9" fill="#e4eddb" />
+  <path d="m245 87 9-1" stroke="#244455" stroke-width="1.7" fill="none" stroke-linecap="round" />
+</g></svg><svg x="840" y="0" width="280" height="176" viewBox="0 0 280 176" overflow="hidden"><g transform="translate(140.0 88.0) rotate(0) scale(1.025 0.98) translate(-140.0 -88.0)"><defs>
+    <linearGradient id="f3_manta-wing" x1="0" y1="0" x2=".35" y2="1"><stop stop-color="#749ca6" /><stop offset=".5" stop-color="#426c80" /><stop offset="1" stop-color="#2e506b" /></linearGradient>
+    <linearGradient id="f3_manta-body" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#7199a4" /><stop offset=".6" stop-color="#41677b" /><stop offset="1" stop-color="#31536b" /></linearGradient>
+  </defs>
+  <path d="M137 87C90 87 60 93 11 83" fill="none" stroke="#2d5266" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M135 86c-2-27-15-48-30-74 31 6 57 21 84 56l23 20Z" fill="url(#f3_manta-wing)" stroke="#315468" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M125 88c22-18 46-28 72-26 17 1 31 8 44 17l5 16c-14 14-34 22-58 21-26-1-46-12-63-28Z" fill="url(#f3_manta-body)" stroke="#315468" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M136 91c17 6 38 8 59 6 18-1 30-5 44-11l1 11c-15 14-34 19-53 17-25-2-38-11-51-23Z" fill="#cbd9ce" />
+  <path d="M193 87c-20 13-39 35-58 76 34-6 68-27 87-57Z" fill="url(#f3_manta-wing)" stroke="#315468" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M186 96c-12 14-23 29-32 48 17-9 29-20 38-34" fill="none" stroke="#82a6ad" stroke-width="2.2" stroke-linecap="round" opacity=".6" />
+  <path d="M240 77c11-7 22-8 24-1 2 5-5 9-11 7l-8 6M239 98c12 8 23 7 25 1 2-5-5-8-12-5l-8-5" fill="#668d97" stroke="#315468" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+  <path d="M151 71c11-4 21-5 30-5M120 31c15 10 29 23 40 38" fill="none" stroke="#a7c5c4" stroke-width="2.6" stroke-linecap="round" opacity=".6" />
+  <path d="m214 95-2 8m-7-7-2 8m-7-7-2 8m-7-8-2 7" stroke="#5c7d85" stroke-width="1.5" stroke-linecap="round" />
+  <ellipse cx="234" cy="79" rx="3.1" ry="3.6" fill="#203d50" /><circle cx="234.8" cy="78.1" r=".9" fill="#e4eddb" />
+  <path d="m245 87 9-1" stroke="#244455" stroke-width="1.7" fill="none" stroke-linecap="round" />
+</g></svg></svg>
