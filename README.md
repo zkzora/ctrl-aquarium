@@ -4,6 +4,20 @@ A shared aquarium where each paid keyboard turn executes one command and the nex
 
 [Try CTRL](https://ctrl-aquarium.vercel.app/#room) · [Mechanism docs](https://ctrl-aquarium.vercel.app/#docs)
 
+## How to test — judges start here
+
+Use Chrome or Brave with an EVM wallet extension and a little **Base Sepolia test ETH** for gas. The app's free kCTRL credits pay for commands; they do not pay blockchain gas. [Get test ETH from the Coinbase Developer Platform faucet](https://www.coinbase.com/developer-platform/products/faucet), selecting **Base Sepolia**.
+
+1. Open [CTRL's Public Aquarium](https://ctrl-aquarium.vercel.app/#room). Click **Connect & sign in**, approve Base Sepolia (chain ID `84532`), and sign the login message. Signing in does not move funds.
+2. Click **Claim 1,500 kCTRL** and confirm the faucet transaction. Wait for confirmation and the balance update. The claim is available once per rolling 24 hours.
+3. In **What happens next?**, enter `Add an orange fish`. Click **Buy keyboard turn & run · 10 credits**. Confirm payment, then confirm execution in your wallet. This is one 10-credit turn, with two gas-paying transactions and no second credit charge. A fish appears and World history records the change.
+4. Enter `Explode the orange fish` and complete the same payment/execution flow. A matching shared fish disappears and a reward receipt records the outcome, including a possible zero reward. Your added fish unlocks this reward command in the current habitat and round.
+5. Check your credit balance, reward receipt, pool allocation, World history, and transaction links. For these two Public commands, the balance change is **−20 credits + the actual payout**. A zero payout is an expected result.
+
+The aquarium is shared: another player can change the world between your commands. If the target is gone or the quote becomes stale, read the message, check the current scene, and prepare a new command. Wait while another player's paid turn is pending.
+
+For Whale Aquarium, treasure, black-hole prerequisites, recovery, and the developer checks, see the [full testing guide](ctrl/TESTING_GUIDE.md). The [2:20 demo video](ctrl-demo-video/out/CTRL-demo-final.mp4) is also included.
+
 ## Repository
 
 - [`ctrl/`](ctrl/): website, server, Solidity contracts, tests, assets, and implementation specs.

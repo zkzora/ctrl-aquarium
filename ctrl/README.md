@@ -6,6 +6,8 @@ A shared aquarium controlled through paid keyboard turns. The website runs on Ve
 
 ## Try it
 
+For a step-by-step judge walkthrough, expected results, and transaction recovery, use the [testing guide](TESTING_GUIDE.md) or the [quick start in the root README](../README.md#how-to-test--judges-start-here).
+
 Connect an EVM wallet, switch to Base Sepolia, and sign in. Claim 1,500 test credits. Public turns cost 10 credits; Whale turns cost 50. One paid turn executes one command. Add fish or treasure to contribute, then use reward commands such as exploding fish or opening treasure. Random outcomes include zero. Black holes clear the aquarium and start gradual regrowth under the round rules. There is no current fish purchase or hatch step.
 
 Every transaction requires Base Sepolia test ETH for gas. kCTRL cannot be transferred, traded, or redeemed. Stock-inspired souvenirs are fictional.
